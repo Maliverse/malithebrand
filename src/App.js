@@ -24,9 +24,8 @@ import animation from '../src/assets/animations/solar.json';
   
    <div className='malithebrand__app-container'>
      <Header />
-     <div className='animationContainer' id='anime'></div>
    </div>
-
+   <div className='animationContainer' id='anime'></div>
    </div>
 
   );
