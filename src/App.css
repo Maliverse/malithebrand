@@ -6,32 +6,27 @@
   
 }
 html{
- 
+  margin: 0;
   overflow-x:hidden;
 }
 body{
   background: #2D322B;
   color: #E3DFD6; 
-  margin-bottom: 0;
   overflow-x:hidden;
-  
+
+
 }
 .malithebrand__center-div{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 0;
-  margin: 0;
+  
 }
 .malithebrand__app-container{
   margin: 0;
   padding: 0;
 
-}
-.animationContainer svg{
-
- margin: 0;
 }
 
 a{
@@ -409,24 +404,10 @@ a{
 
 
 @media screen and (max-width: 1050px ) {
-  .animationContainer{
-  
-   display: flex;
-    flex-direction: column;
-    align-self: flex-end;
-   
-   }
+
   
 }  
 @media screen and (max-width: 550px ) {
-  body{
-    margin: 0;
-  }
+ 
   
-  .animationContainer{
-    display: flex;
-    flex-direction: column;
-    align-self: flex-end;
-    margin: 0;
-  }
 } 

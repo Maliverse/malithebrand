@@ -1,0 +1,12 @@
+.animationContainer svg{
+
+   }
+   @media screen and (max-width: 550px ) {
+   
+    .animationContainer svg{
+      display: flex;
+      flex-direction: column;
+      align-self: flex-end;
+      margin-top: 90vh;
+    }
+  }    
