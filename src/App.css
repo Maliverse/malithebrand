@@ -1,8 +1,9 @@
 *{
   box-sizing: border-box;
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
   
-
 }
 html{
  
@@ -12,7 +13,7 @@ body{
   background: #2D322B;
   color: #E3DFD6; 
   margin-bottom: 0;
- 
+  overflow-x:hidden;
   
 }
 .malithebrand__center-div{
@@ -28,14 +29,9 @@ body{
   padding: 0;
 
 }
-.animationContainer{
- display: flex;
+.animationContainer svg{
 
-
- justify-content: flex-end;
-
-
-margin: 0;
+ margin: 0;
 }
 
 a{
@@ -414,7 +410,7 @@ a{
 
 @media screen and (max-width: 1050px ) {
   .animationContainer{
-   margin-top: 10rem;
+  
    display: flex;
     flex-direction: column;
     align-self: flex-end;
