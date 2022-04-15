@@ -1,7 +1,7 @@
 .animationContainer {
     display: flex;
       flex-direction: column;
-      align-self: flex-end;
+      align-self: center;
       margin: 0;
    }
    @media screen and (max-width: 750px ) {
