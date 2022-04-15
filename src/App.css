@@ -5,15 +5,14 @@
 
 }
 html{
-  margin:0;
-  padding:0;
+ 
   overflow-x:hidden;
 }
 body{
   background: #2D322B;
   color: #E3DFD6; 
   margin-bottom: 0;
-  
+
   
 }
 .malithebrand__center-div{
@@ -22,12 +21,11 @@ body{
   align-items: center;
   flex-direction: column;
   margin-bottom: 0;
+  margin: 0;
 }
 .malithebrand__app-container{
   margin: 0;
- 
-  
-
+  padding: 0;
 
 }
 .animationContainer{
@@ -37,7 +35,7 @@ body{
  justify-content: flex-end;
 
 
-
+margin: 0;
 }
 
 a{
@@ -45,12 +43,13 @@ a{
   text-decoration: none;
 }
 
-.section__padding{
+/*.section__padding{
   padding: 4rem 6rem;
-}
-.section__margin {
-  margin: 4rem 6rem;
-}
+}*/
+/*.section__margin {
+  margin: 4rem 6rem; 
+}*/
+
 .scale-up-center {
 -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
         animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -427,15 +426,11 @@ a{
   body{
     margin: 0;
   }
-  .section__padding{
-      padding: 4rem 2rem;
-  } 
-  .section__margin{
-      margin: 4rem 2rem;
-  }
+  
   .animationContainer{
     display: flex;
     flex-direction: column;
     align-self: flex-end;
+    margin: 0;
   }
 } 
