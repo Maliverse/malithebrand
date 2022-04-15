@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/malithebrand/static/css/main.631b3ff6.css",
-    "main.js": "/malithebrand/static/js/main.5620e9e6.js",
+    "main.css": "/malithebrand/static/css/main.bb727c0c.css",
+    "main.js": "/malithebrand/static/js/main.dd8ec1c8.js",
     "static/js/787.c12b3e00.chunk.js": "/malithebrand/static/js/787.c12b3e00.chunk.js",
     "static/media/Canela-Thin.otf": "/malithebrand/static/media/Canela-Thin.c34bef0ddac1781abf43.otf",
     "index.html": "/malithebrand/index.html",
-    "main.631b3ff6.css.map": "/malithebrand/static/css/main.631b3ff6.css.map",
-    "main.5620e9e6.js.map": "/malithebrand/static/js/main.5620e9e6.js.map",
+    "main.bb727c0c.css.map": "/malithebrand/static/css/main.bb727c0c.css.map",
+    "main.dd8ec1c8.js.map": "/malithebrand/static/js/main.dd8ec1c8.js.map",
     "787.c12b3e00.chunk.js.map": "/malithebrand/static/js/787.c12b3e00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.631b3ff6.css",
-    "static/js/main.5620e9e6.js"
+    "static/css/main.bb727c0c.css",
+    "static/js/main.dd8ec1c8.js"
   ]
 }
