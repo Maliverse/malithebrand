@@ -16,7 +16,7 @@
  font-family: Canela;
  font-size: 15rem;
  text-align: center;
-
+ 
 }
 p{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -27,7 +27,7 @@ p{
 .malithebrand__button{
     display: flex;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 10rem;
 }
 .malithebrand__button button{
  border: 1px solid #E3DFD6;
@@ -52,6 +52,12 @@ cursor: pointer;
         font-size: 9px;
         letter-spacing: 6px;
     }
+    .malithebrand__button{
+        display: flex;
+        justify-content: center;
+        margin-top: 200px;
+        margin-bottom: 150px;
+    }
 }
 @media screen and (max-width: 350px) {
     .malithebrand__header-title h1 {
@@ -63,4 +69,10 @@ cursor: pointer;
            font-size: 5px;
            letter-spacing: 4px;
        }
+       .malithebrand__button{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom:0;
+    }
 }
