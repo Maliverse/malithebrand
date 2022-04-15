@@ -13,9 +13,7 @@ import './App.css';
      <Header />
      
    </div>
-
      <Anime  />
-
    </div>
 
   );
