@@ -10,11 +10,12 @@ const Header = () => {
             <div className='malithebrand__header-top'>
             <div className='malithebrand__header-title'>
                 <h1 className='malithebrand__header-name tracking-in-contract-bck'>maliVerse</h1>
-                <p>DESIGNER X DEVELOPER</p>
+                <p>THE STANDARD IS EXCELLENCE</p>
             </div>
             <div className='malithebrand__button'>
-            <button className='jello-horizontal'>View portfolio</button>
+            <button className='jello-horizontal'>Contact Me</button>
             </div>
+           
             </div>
           
         </div>

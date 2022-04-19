@@ -1,3 +1,4 @@
+
 *{
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -13,7 +14,7 @@ body{
   background: #2D322B;
   color: #E3DFD6; 
   overflow-x:hidden;
-
+  background-image: url(./assets/animations/wavey.json) ;
 
 }
 .malithebrand__center-div{
