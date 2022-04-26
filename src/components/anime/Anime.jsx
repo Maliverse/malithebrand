@@ -15,7 +15,8 @@ import Lottie from 'lottie-web';
           });
         }, []);
       return(
-        <div className='animationContainer' id='anime'></div>
+        <div className='animationContainer' id='anime'> </div>
+        
       )
 }
 

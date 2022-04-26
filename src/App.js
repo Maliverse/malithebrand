@@ -1,5 +1,5 @@
-import { Header } from './containers';
-import { Anime } from './components'
+import { Header, Services, } from './containers';
+import { Anime } from './components';
 import './App.css';
 
 
@@ -11,9 +11,12 @@ import './App.css';
   
    <div className='malithebrand__app-container'>
      <Header />
-     
-   </div>
+     <Services />
      <Anime  />
+     <div className='animationText'> <p>EXCELLENCE & CREATIVITY <span>//All In One</span>  </p> </div>
+   </div>
+    
+
    </div>
 
   );

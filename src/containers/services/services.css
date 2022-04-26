@@ -1,0 +1,56 @@
+.malithebrand__product-offerings{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 150px;
+    margin-bottom: 0;
+}
+.malithebrand__product-offerings_brand-identity-card{
+    background: red;
+    height: 5em;
+    width: 5em;
+    border-radius: 100%;
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.malithebrand__product-offerings_brand-identity p{
+    letter-spacing: 0;
+    font-size: 25px;
+    margin: 20px;
+}
+.malithebrand__product-offerings_ui-ux-card{
+    background: red;
+    height: 5em;
+    width: 5em;
+    border-radius: 100%;
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.malithebrand__product-offerings_ui-ux p{
+    letter-spacing: 0;
+    font-size: 25px;
+    margin: 20px;
+
+}
+
+.malithebrand__product-offerings_web-dev-card{
+    background: red;
+    height: 5em;
+    width: 5em;
+    border-radius: 100%;
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.malithebrand__product-offerings_web-dev p{
+    letter-spacing: 0;
+    font-size: 25px;
+    margin: 20px;
+}

@@ -4,11 +4,13 @@
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
+ 
   
 }
 html{
   margin: 0;
   overflow-x:hidden;
+  
 }
 body{
   background: #2D322B;
@@ -23,6 +25,7 @@ body{
   align-items: center;
   flex-direction: column;
   
+  
 }
 .malithebrand__app-container{
   margin: 0;
@@ -33,6 +36,14 @@ body{
 a{
   color: unset;
   text-decoration: none;
+}
+.animationText p{
+  font-size: 200px;
+  text-align: left;
+}
+.animationText p span{
+  font-size: 50px;
+  letter-spacing: 0;
 }
 
 /*.section__padding{
