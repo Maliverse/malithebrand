@@ -1,5 +1,5 @@
 import { Header, Services, } from './containers';
-import { Anime } from './components';
+import { Anime, Navbar } from './components';
 import './App.css';
 
 
@@ -10,6 +10,7 @@ import './App.css';
 
   
    <div className='malithebrand__app-container'>
+     <Navbar />
      <Header />
      <Services />
      <Anime  />
