@@ -18,6 +18,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    align-items: center;
     
 }
 .malithebrand__product-offerings_brand-identity p,
@@ -28,7 +29,13 @@
     font-size: 25px;
     margin: 20px;
 }
-
+.brand-icon{
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @media screen and (max-width: 1350px) {
     .malithebrand__product-offerings{
         flex-direction: column;
