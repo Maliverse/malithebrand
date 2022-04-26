@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/malithebrand/static/css/main.2abda5f5.css",
-    "main.js": "/malithebrand/static/js/main.f0f55a0d.js",
+    "main.js": "/malithebrand/static/js/main.2ddd682b.js",
     "static/js/787.c12b3e00.chunk.js": "/malithebrand/static/js/787.c12b3e00.chunk.js",
     "static/media/mvlogo1.svg": "/malithebrand/static/media/mvlogo1.6efbafc44389019ed6f390306901eb7c.svg",
     "static/media/Canela-Thin.otf": "/malithebrand/static/media/Canela-Thin.c34bef0ddac1781abf43.otf",
@@ -9,11 +9,11 @@
     "static/media/wavey.json": "/malithebrand/static/media/wavey.898e1aa3231e42308b2d.json",
     "index.html": "/malithebrand/index.html",
     "main.2abda5f5.css.map": "/malithebrand/static/css/main.2abda5f5.css.map",
-    "main.f0f55a0d.js.map": "/malithebrand/static/js/main.f0f55a0d.js.map",
+    "main.2ddd682b.js.map": "/malithebrand/static/js/main.2ddd682b.js.map",
     "787.c12b3e00.chunk.js.map": "/malithebrand/static/js/787.c12b3e00.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2abda5f5.css",
-    "static/js/main.f0f55a0d.js"
+    "static/js/main.2ddd682b.js"
   ]
 }
