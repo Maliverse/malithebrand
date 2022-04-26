@@ -14,7 +14,7 @@ import './App.css';
      <Header />
      <Services />
      <Anime  />
-     <div className='animationText'> <p>EXCELLENCE & CREATIVITY <span>//All In One</span>  </p> </div>
+   
    </div>
     
 

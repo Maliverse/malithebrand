@@ -1,0 +1,24 @@
+.navbar__container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    font-family:FoundersGrotesk-light;
+}
+.navbar__container img{
+ height: 2rem;
+ width: 2rem;
+ margin: 10px;
+ display: flex;
+ justify-content: center;
+ cursor: pointer;
+}
+.navbar__container-list ul{
+    display: flex;
+ flex-direction: row;
+ list-style: none;
+ cursor: pointer;
+}
+ul li{
+    margin: 20px;
+}

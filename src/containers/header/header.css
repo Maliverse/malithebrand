@@ -19,7 +19,7 @@
     margin: 5rem;
 }
 p{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:FoundersGrotesk-light;
     letter-spacing: 30px;
     font-size: 15px;
     text-align: center;
@@ -28,6 +28,7 @@ p{
     display: flex;
     justify-content: center;
     margin-top: 5rem;
+    
 }
 .malithebrand__button button{
  border: 1px solid #E3DFD6;
@@ -40,13 +41,22 @@ padding-right: 30px;
 font-size: 20px;
 cursor: pointer;
 transition-duration: 1s;
+font-family:FoundersGrotesk-light;
+text-align: center;
 }
 .malithebrand__button button:hover{
     padding-left: 35px;
     padding-right: 35px;
     color: #fffbf2;
 }
-
+@media screen and (max-width: 1350px)  {
+    .malithebrand__header-title h1{
+        font-size: 5rem;
+    }
+    p{
+        font-size: 10px;
+    }
+}
 @media screen and (max-width: 950px) {
     .malithebrand__header-container {
         margin-top: 0;
@@ -65,6 +75,13 @@ transition-duration: 1s;
         justify-content: center;
        
     }
+}
+@media screen and (max-width: 460px) {
+    .malithebrand__header-title h1 {
+        
+        font-size: 3rem;
+       
+       }
 }
 @media screen and (max-width: 350px) {
     .malithebrand__header-title h1 {

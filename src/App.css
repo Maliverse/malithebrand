@@ -37,14 +37,7 @@ a{
   color: unset;
   text-decoration: none;
 }
-.animationText p{
-  font-size: 200px;
-  text-align: left;
-}
-.animationText p span{
-  font-size: 50px;
-  letter-spacing: 0;
-}
+
 
 /*.section__padding{
   padding: 4rem 6rem;
@@ -415,11 +408,11 @@ a{
 
 
 
-@media screen and (max-width: 1050px ) {
+@media screen and (max-width: 1350px ) {
 
-  
+
 }  
-@media screen and (max-width: 550px ) {
+@media screen and (max-width: 664px ) {
  
-  
+
 } 

@@ -1,13 +1,74 @@
-.animationContainer {
-    display: flex;
-      flex-direction: column;
-      align-self: center;
-      margin: 0;
+.animationContent{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+   .animationText p{
+    font-size: 200px;
+    font-family:FoundersGrotesk-light;
+    text-align: center;
+  }
+  .animationText p span{
+    font-size: 80px;
+    letter-spacing: 0;
+  }
+   @media screen and (max-width:1350px ){
+    .animationContainer{
+      max-width: 1350px;
+    }
+    .animationText p{
+      font-size: 100px;
+    
+    }
+    .animationText p span{
+      font-size: 40px;
+      letter-spacing: 0;
+    }
    }
    @media screen and (max-width:950px ) {
-   
-    .animationContainer{
-  
-      margin-top:100vh; 
+    .animationContainer {
+      max-width: 950px;
+     }
+     .animationText p{
+      font-size: 50px;
     }
-  }    
+    .animationText p span{
+      font-size: 20px;
+      letter-spacing: 0;
+    }
+  
+  } 
+  @media screen and (max-width:768px ){
+    .animationContainer{
+      max-width: 768px;
+    }
+    .animationText p{
+      font-size: 30px;
+    }
+    .animationText p span{
+      font-size: 10px;
+      letter-spacing: 0;
+    }
+  }
+  @media screen and (max-width:414px ){
+  
+    .animationText p{
+      font-size: 15px;
+    }
+    .animationText p span{
+      font-size: 5px;
+      letter-spacing: 0;
+    }
+  }
+  @media screen and (max-width:280px ){
+    .animationText p{
+      font-size: 10px;
+    }
+    .animationText p span{
+      font-size: 5px;
+      letter-spacing: 0;
+    }
+  }
+  
