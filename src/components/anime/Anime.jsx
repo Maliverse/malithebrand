@@ -17,7 +17,7 @@ import Lottie from 'lottie-web';
       return(
         <div className='animationContent'>
              <div className='animationContainer' id='anime'></div>
-             <div className='animationText'> <p>EXCELLENCE & CREATIVITY <span>All In One</span> </p> </div>
+             <div className='animationText'> <p>EXCELLENCE & CREATIVITY, <span>All In One</span> </p> </div>
         </div>
     
         
