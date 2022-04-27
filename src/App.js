@@ -1,9 +1,12 @@
 import { Header, Services, Projects, Testimonials } from './containers';
 import { Anime, Navbar } from './components';
+
 import './App.css';
 
 
   const App = () => {
+
+    
 
   return (
    <div className='malithebrand__center-div'>

@@ -7,6 +7,7 @@
     position: relative;
     margin: 3rem;
     margin-top: 0;
+   
 
 
 }
@@ -16,14 +17,14 @@
  margin: 10px;
  display: flex;
  justify-content: center;
- cursor: pointer;
+ cursor: none;
 
 }
 .navbar__container-list ul{
     display: flex;
  flex-direction: row;
  list-style: none;
- cursor: pointer;
+ cursor: none;
 }
 ul li{
     margin: 20px;
@@ -40,7 +41,7 @@ ul li:hover{
     z-index: 1000;
 }
 .navbar-menu svg{
-    cursor: pointer;
+    cursor: none;
 }
 .navbar-menu_container{
     display: flex;

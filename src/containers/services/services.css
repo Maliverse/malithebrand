@@ -17,6 +17,7 @@ display: flex;
 justify-content: center;
 margin: 3rem;
 font-family: canela;
+margin-top: 0;
 }
 .malithebrand__product-offerings_brand-identity-card,
 .malithebrand__product-offerings_ui-ux-card,

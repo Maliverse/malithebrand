@@ -1,11 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import './navbar.css';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/mvlogo1.svg';
+import { motion } from "framer-motion";
 
 const Menu = () => (
     <>
-          <ul>
+          <ul >
             <li> <a href="#Home">Home</a></li>
             <li> <a href="#About">About</a></li>
             <li> <a href="#Contact">Contact</a></li>
@@ -17,6 +18,7 @@ const Menu = () => (
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
 
+
     return(
         <div className="navbar__container" id='Home'> 
         
@@ -27,7 +29,7 @@ const Navbar = () => {
                 </div>
                 
                 <div className="navbar__container-list">
-                <Menu />
+                <Menu  />
                 </div>
       
 
@@ -45,6 +47,8 @@ const Navbar = () => {
             )
             }
           </div>
+
+  
 
          </div>
     )
