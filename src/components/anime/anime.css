@@ -28,6 +28,8 @@ justify-self: center;
   .animationText p span{
     font-size: 80px;
     letter-spacing: 0;
+    margin: 4rem;
+    margin-left: 0;
   }
    @media screen and (max-width:1350px ){
     .animationContainer{

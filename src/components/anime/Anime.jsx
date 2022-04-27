@@ -23,8 +23,8 @@ import Marquee from "react-fast-marquee";
              <div className='animationContainer' id='anime'>
                
              <div className='animationText'>
-               <Marquee className='marquee' behavior="scroll" direction="left" speed={200} gradientColor="black">
-                <p> / EXCELLENCE & CREATIVITY / <span>All In One </span> </p>
+               <Marquee className='marquee' behavior="scroll" direction="left" speed={100} gradientColor="black">
+                <p>  ELEGANCE & CREATIVITY / <span>All In One </span> </p>
                 </Marquee>
              </div>
 
@@ -32,8 +32,8 @@ import Marquee from "react-fast-marquee";
             
         </div>
         <div className='animationText'>
-               <Marquee className='marquee' behavior="scroll" direction="left" speed={200} gradientColor="black">
-                <p>EXCELLENCE & CREATIVITY / <span>All In 1 </span> </p>
+               <Marquee className='marquee' behavior="scroll" direction="right" speed={100} gradientColor="black">
+                <p>  ELEGANCE & CREATIVITY / <span>All In One </span> </p>
                 </Marquee>
              </div>
 

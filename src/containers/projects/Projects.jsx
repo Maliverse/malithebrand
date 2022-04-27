@@ -5,7 +5,7 @@ const Projects = () => {
     return(
         <div className="project__container">
 <div className="project__title">
-        <h1>Some Projects We've Worked On</h1>
+        <h1>Some Projects <br /> We've Worked On</h1>
  </div>
 
         <div className="project__cards">
