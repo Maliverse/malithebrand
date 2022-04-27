@@ -1,15 +1,29 @@
-.animationContent{
+
+.animationParent{
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+.animationContent{
+  display: flex;
   align-items: center;
+  align-self: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.animationContainer .marquee{
+
+display: flex;
+justify-self: center;
+
 }
 
    .animationText p{
-    font-size: 200px;
-    font-family:FoundersGrotesk-light;
+    font-size: 180px;
+    font-family:canela;
     text-align: left;
-  
+    
   }
   .animationText p span{
     font-size: 80px;
@@ -18,6 +32,7 @@
    @media screen and (max-width:1350px ){
     .animationContainer{
       max-width: 1350px;
+
     }
     .animationText p{
       font-size: 100px;

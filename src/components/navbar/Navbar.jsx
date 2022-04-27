@@ -18,7 +18,7 @@ const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
 
     return(
-        <div className="navbar__container"> 
+        <div className="navbar__container" id='Home'> 
         
 
        

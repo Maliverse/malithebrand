@@ -1,10 +1,22 @@
 .malithebrand__product-offerings{
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
+    flex-direction: column;
     margin: 150px;
     margin-bottom: 0;
     font-family:FoundersGrotesk-light;
+    
+}
+.malithebrand__product-categories{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.malithebrand__product-heading h1{
+display: flex;
+justify-content: center;
+margin: 3rem;
+font-family: canela;
 }
 .malithebrand__product-offerings_brand-identity-card,
 .malithebrand__product-offerings_ui-ux-card,
@@ -15,6 +27,7 @@
     width: 5em;
     border-radius: 100%;
     padding: 150px;
+    margin: 5rem;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -28,6 +41,7 @@
     letter-spacing: 0;
     font-size: 25px;
     margin: 20px;
+    margin-bottom: 50px;
 }
 .brand-icon{
     height: 5rem;
@@ -40,6 +54,9 @@
     .malithebrand__product-offerings{
         flex-direction: column;
         align-items: center;
+    }
+    .malithebrand__product-categories{
+        flex-direction: column;
     }
 }
 @media screen and (max-width: 280px){

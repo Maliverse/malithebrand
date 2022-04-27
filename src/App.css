@@ -17,7 +17,7 @@ body{
   color: #E3DFD6; 
   overflow-x:hidden;
   background-image: url(./assets/animations/wavey.json) ;
-
+  margin: 0;
 }
 .malithebrand__center-div{
   display: flex;

@@ -2,6 +2,8 @@ import React from 'react'
 import './anime.css'
 import solar from '../../assets/animations/solar.json';
 import Lottie from 'lottie-web';
+import Marquee from "react-fast-marquee";
+
 
     export default function Anime () {
         React.useEffect(() => {
@@ -15,12 +17,27 @@ import Lottie from 'lottie-web';
           });
         }, []);
       return(
+        <div className='animationParent'>
         <div className='animationContent'>
-             <div className='animationContainer' id='anime'></div>
-             <div className='animationText'> <p>EXCELLENCE & CREATIVITY / <span>All In 1</span> </p> </div>
+
+             <div className='animationContainer' id='anime'>
+               
+             <div className='animationText'>
+               <Marquee className='marquee' behavior="scroll" direction="left" speed={200} gradientColor="black">
+                <p> / EXCELLENCE & CREATIVITY / <span>All In One </span> </p>
+                </Marquee>
+             </div>
+
+             </div>
+            
         </div>
-    
-        
+        <div className='animationText'>
+               <Marquee className='marquee' behavior="scroll" direction="left" speed={200} gradientColor="black">
+                <p>EXCELLENCE & CREATIVITY / <span>All In 1 </span> </p>
+                </Marquee>
+             </div>
+
+        </div>
       )
 }
 

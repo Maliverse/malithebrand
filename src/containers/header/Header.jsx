@@ -1,7 +1,7 @@
 
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './header.css';
-
+import { motion } from "framer-motion";
 
 const Header = () => {
 

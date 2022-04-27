@@ -1,0 +1,37 @@
+.project__container{
+    display: flex;
+    margin: 40em ;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: center;
+}
+.project__title{
+    text-align: center;
+    font-family: canela;
+    align-self: center;
+    margin: 2rem;
+}
+.project__cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+  
+    
+}
+.card {
+    height: 350px;
+    width: 350px;
+    background: red;
+    margin: 2rem;
+}
+@media screen and (max-width: 1350px){
+    .project__container{
+        flex-direction: column;
+        margin: 5rem;
+    }
+    .project__cards{
+        justify-content: center;
+    }
+  
+}
