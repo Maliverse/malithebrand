@@ -41,11 +41,19 @@ const Header = () => {
       backgroundColor: "red",
       mixBlendMode: "darken",
 
+    },
+    disappear: {
+      height: 0,
+      width: 0,
+      x: mousePosition.x,
+      y: mousePosition.y,
+      opacity: 0,
     }
   }
 
   const textEnter = () => setCursorVariant("text");
   const textLeave = () => setCursorVariant("default");
+  //const textDisappear = () => setCursorVariant("disappear")
 
     return (
         <div className='malithebrand__header-container  '>
