@@ -39,7 +39,8 @@ const Header = () => {
       x: mousePosition.x - 75,
       y: mousePosition.y - 75,
       backgroundColor: "red",
-      mixBlendMode: "darken"
+      mixBlendMode: "darken",
+
     }
   }
 
