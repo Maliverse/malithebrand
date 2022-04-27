@@ -40,6 +40,7 @@ const Header = () => {
       y: mousePosition.y - 75,
       backgroundColor: "red",
       mixBlendMode: "darken",
+      
 
     },
     disappear: {
@@ -73,6 +74,7 @@ const Header = () => {
      className='cursor'
      variants={variants}
      animate={cursorVariant}
+     transition={{ ease: "easeOut", duration: 0.5 }}
      />
 
             </div>
