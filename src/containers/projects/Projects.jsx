@@ -8,7 +8,7 @@ const Projects = () => {
         <h1>Some <br /> interesting projects</h1>
  </div>
 
-        <div className="project__cards">
+        <div className="project__cards ">
             <div className="card 1">1</div>
             <div className="card 2">2</div>
             <div className="card 3">3</div>
