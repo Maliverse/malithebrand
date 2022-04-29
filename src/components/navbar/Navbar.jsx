@@ -9,8 +9,8 @@ const Menu = () => (
           <ul >
             <li> <a href="#Home">Home</a></li>
             <li> <a href="#About">About</a></li>
+            <li> <a href="#Projects">Projects</a></li>
             <li> <a href="#Contact">Contact</a></li>
-            <li> <a href="#Blog">Blog</a></li>
         </ul>
     </>
 )
@@ -25,7 +25,7 @@ const Navbar = () => {
 
        
                 <div className="navbar__container-logo">
-                <img src={logo} alt="logo"/>
+                <img className="logo" src={logo} alt="logo"/>
                 </div>
                 
                 <div className="navbar__container-list">

@@ -1,5 +1,5 @@
 import { Header, Services, Projects, Testimonials } from './containers';
-import { Anime, Navbar } from './components';
+import { Anime, Navbar, About, Brands } from './components';
 
 import './App.css';
 
@@ -17,7 +17,10 @@ import './App.css';
      <Header />
      <Services />
      <Anime  />
+     <About />
+     <Brands />
      <Projects />
+     
      <Testimonials />
    
    </div>

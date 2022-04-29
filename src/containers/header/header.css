@@ -42,7 +42,7 @@ p{
     margin-top: 5rem;
     
 }
-.malithebrand__button button{
+ button{
  border: 1px solid #E3DFD6;
  background: none;
  color: #E3DFD6;
@@ -56,7 +56,7 @@ transition-duration: 1s;
 font-family:FoundersGrotesk-light;
 text-align: center;
 }
-.malithebrand__button button:hover{
+ button:hover{
     padding-left: 35px;
     padding-right: 35px;
     color: #fffbf2;
