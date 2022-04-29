@@ -1,19 +1,25 @@
 {
   "files": {
-    "main.css": "/malithebrand/static/css/main.5ee592e2.css",
-    "main.js": "/malithebrand/static/js/main.9178c1bf.js",
+    "main.css": "/malithebrand/static/css/main.a5cd92a8.css",
+    "main.js": "/malithebrand/static/js/main.39bc0e99.js",
     "static/js/787.c12b3e00.chunk.js": "/malithebrand/static/js/787.c12b3e00.chunk.js",
     "static/media/mvlogo1.svg": "/malithebrand/static/media/mvlogo1.6efbafc44389019ed6f390306901eb7c.svg",
+    "static/media/maliweb@0.33x.jpg": "/malithebrand/static/media/maliweb@0.33x.a4fb86c19df7eeee18dc.jpg",
+    "static/media/maliweb.jpg": "/malithebrand/static/media/maliweb.749bd3db158a48a0b98c.jpg",
     "static/media/Canela-Thin.otf": "/malithebrand/static/media/Canela-Thin.c34bef0ddac1781abf43.otf",
     "static/media/FoundersGrotesk-Light.otf": "/malithebrand/static/media/FoundersGrotesk-Light.d629d42efd025e8920c6.otf",
+    "static/media/agp.png": "/malithebrand/static/media/agp.81a8ba874cdf543b608b.png",
+    "static/media/igs.png": "/malithebrand/static/media/igs.d57321d113b2c7773443.png",
+    "static/media/pulse.png": "/malithebrand/static/media/pulse.72c397daa392955aeaee.png",
+    "static/media/belmont.png": "/malithebrand/static/media/belmont.a3c441fbb9dc20295321.png",
     "static/media/wavey.json": "/malithebrand/static/media/wavey.898e1aa3231e42308b2d.json",
     "index.html": "/malithebrand/index.html",
-    "main.5ee592e2.css.map": "/malithebrand/static/css/main.5ee592e2.css.map",
-    "main.9178c1bf.js.map": "/malithebrand/static/js/main.9178c1bf.js.map",
+    "main.a5cd92a8.css.map": "/malithebrand/static/css/main.a5cd92a8.css.map",
+    "main.39bc0e99.js.map": "/malithebrand/static/js/main.39bc0e99.js.map",
     "787.c12b3e00.chunk.js.map": "/malithebrand/static/js/787.c12b3e00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ee592e2.css",
-    "static/js/main.9178c1bf.js"
+    "static/css/main.a5cd92a8.css",
+    "static/js/main.39bc0e99.js"
   ]
 }
