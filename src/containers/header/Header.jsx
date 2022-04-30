@@ -62,7 +62,7 @@ const Header = () => {
             <div className='malithebrand__header-top'>
 
             <div className='malithebrand__header-title'>
-                <h1 onMouseEnter={textEnter} onMouseLeave={textLeave} className='malithebrand__header-name tracking-in-contract-bck'>maliTheBrand</h1>
+                <h1 onMouseEnter={textEnter} onMouseLeave={textLeave} className='malithebrand__header-name tracking-in-contract-bck'>MALIVERSE</h1>
                 <p onMouseEnter={textEnter} onMouseLeave={textLeave}>A SUBTLE TOUCH OF EXTRAORDINARY</p>
             </div>
             <div className='malithebrand__button'>

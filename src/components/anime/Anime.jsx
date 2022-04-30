@@ -13,7 +13,7 @@ import Marquee from "react-fast-marquee";
             renderer: "svg", // "canvas", "html"
             loop: true, // boolean
             autoplay: true, // boolean
-            
+           
           });
         }, []);
       return(
@@ -24,7 +24,7 @@ import Marquee from "react-fast-marquee";
                
              <div className='animationText'>
                <Marquee className='marquee' behavior="scroll" direction="left" speed={100} gradientColor="black">
-                <p>  A BRAVE NEW WORLD / <span>Of  Endless  Possibiliities. </span> </p>
+                <p>  A BRAVE NEW WORLD <span>Of  Endless  Possibiliities. </span> </p>
                 </Marquee>
              </div>
 
@@ -33,7 +33,7 @@ import Marquee from "react-fast-marquee";
         </div>
         <div className='animationText'>
                <Marquee className='marquee' behavior="scroll" direction="right" speed={100} gradientColor="black">
-               <p>  A BRAVE NEW WORLD / <span>Of  Endless  Possibilities. </span> </p>
+               <p>  A BRAVE NEW WORLD <span>Of  Endless  Possibilities. </span> </p>
                 </Marquee>
              </div>
 
