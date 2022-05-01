@@ -21,7 +21,7 @@ import './App.css';
      <Brands />
 
      
-     <Testimonials />
+     
    
    </div>
     
