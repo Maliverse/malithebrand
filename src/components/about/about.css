@@ -1,39 +1,62 @@
-.about__container{
+
+.about__content{
 background:  url(../../assets/images/maliweb@0.33x.jpg);
-    height: 60vh;
+    height: 50vh;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;  
-}
-.about__content{
-    display: flex;
-    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
+ 
 }
+
 .about__text{
-    font-size: 50px;
-    margin-right: -25rem;
+
+    
+
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     
+    
 }
-.about__text h1{
+.aboutName{
     font-family: canela;
+    font-size: 60px;
 }
 
 .about__text p{
     font-family: FoundersGrotesk-light;
 
 }
-.about__image{
-    width: 1000px;
-    
+.aboutImage{
+    width: 1050px;
+    display: none;
    
+}
+
+@media (min-width: 1350px){
+    .about__text{
+        margin-right: -35em;
+        z-index: 1;
+    }
+    .aboutImage{
+        display: flex;
+    }
+    .aboutName{
+        font-size: 90px;
+    }
+}
+@media (max-width: 1350px){
+    .aboutName{
+        font-size: 50px;
+    }
+}
+@media (max-width: 300px){
+    .aboutName{
+        font-size: 20px;
+    }
 }

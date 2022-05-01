@@ -18,6 +18,7 @@ justify-content: center;
 margin: 3rem;
 font-family: canela;
 margin-top: 0;
+text-align: center;
 }
 .malithebrand__product-offerings_brand-identity-card,
 .malithebrand__product-offerings_ui-ux-card,
@@ -43,6 +44,7 @@ margin-top: 0;
     font-size: 25px;
     margin: 20px;
     margin-bottom: 50px;
+    
 }
 .brand-icon{
     height: 5rem;
@@ -55,6 +57,7 @@ margin-top: 0;
     .malithebrand__product-offerings{
         flex-direction: column;
         align-items: center;
+
     }
     .malithebrand__product-categories{
         flex-direction: column;

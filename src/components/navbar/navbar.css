@@ -6,17 +6,17 @@
     padding: 2rem 6rem;
     font-family:FoundersGrotesk-light;
     position: relative;
-    margin: 3rem;
-    margin-top: 0;
+    
     
 
 }
-.navbar__container .logo{
+.logo{
  height: 2rem;
  width: 2rem;
- margin: 5px;
+ margin-left: -1.5rem;
  display: flex;
  justify-content: center;
+ align-self: start;
  cursor: pointer;
 
 }
@@ -77,6 +77,15 @@ a:hover{
     .navbar__container-list{
         display: none;
     }
+    .navbar__container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 2rem 6rem;
+        margin: 5rem;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
     .navbar-menu{
         display: flex;
         justify-content: center;
@@ -88,9 +97,24 @@ a:hover{
     }
     
 }
+@media screen and (max-width: 460px){
+    .navbar__container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 2rem 6rem;
+        margin: 2rem;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
 @media screen and (max-width: 280px){
     .navbar__container{
-        margin: 5rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 2rem 6rem;
+       
         margin-top: 0;
         margin-bottom: 0;
     }

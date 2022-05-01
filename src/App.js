@@ -19,7 +19,7 @@ import './App.css';
      <Anime  />
      <About />
      <Brands />
-     <Projects />
+
      
      <Testimonials />
    

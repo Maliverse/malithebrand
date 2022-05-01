@@ -6,31 +6,31 @@ const Brands = () => {
     return (
      // <Marquee className='marquee' behavior="scroll" direction="left" speed={100} gradientColor="black">
         <div className='brands__container'>
-         <div className='brand'>
+         <div className='brand one'>
         <img src={agp} alt="agp" />    
       </div>
 
-      <div className='brand'>
+      <div className='brand two'>
       <img src={belmont} alt="belmont" />
       </div>
 
-      <div className='brand'>
+      <div className='brand three'>
       <img src={confirmers} alt="confirmers" />
       </div>
 
-      <div className='brand'>
+      <div className='brand four'>
       <img src={igs} alt="igs" />
       </div>
 
-      <div className='brand'>
+      <div className='brand five'>
       <img src={mirro} alt="mirro" />
       </div>
 
-      <div className='brand'>
+      <div className='brand six'>
       <img src={pulse} alt="pulse" />
       </div>
 
-      <div className='brand'>
+      <div className='brand seven'>
       <img src={wa} alt="wa" />
       </div>
 

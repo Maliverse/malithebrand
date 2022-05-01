@@ -32,6 +32,8 @@
     }
     .project__cards{
         justify-content: center;
+        flex-direction: column;
+        align-content: center;
     }
   
 }
