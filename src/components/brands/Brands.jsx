@@ -5,6 +5,7 @@ import Marquee from 'react-fast-marquee';
 const Brands = () => {
     return (
      // <Marquee className='marquee' behavior="scroll" direction="left" speed={100} gradientColor="black">
+     
         <div className='brands__container'>
          <div className='brand one'>
         <img src={agp} alt="agp" />    

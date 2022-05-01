@@ -8,7 +8,8 @@ background:  url(../../assets/images/maliweb@0.33x.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
- 
+    margin-bottom: 10em;
+    
 }
 
 .about__text{
@@ -39,6 +40,7 @@ background:  url(../../assets/images/maliweb@0.33x.jpg);
 }
 
 @media (min-width: 1350px){
+   
     .about__text{
         margin-right: -35em;
         z-index: 1;
@@ -51,11 +53,17 @@ background:  url(../../assets/images/maliweb@0.33x.jpg);
     }
 }
 @media (max-width: 1350px){
+    .about__content{
+        margin-bottom: 0;
+    }
     .aboutName{
         font-size: 50px;
     }
 }
 @media (max-width: 300px){
+    .about__content{
+        margin-bottom: 0;
+    }
     .aboutName{
         font-size: 20px;
     }
