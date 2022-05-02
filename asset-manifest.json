@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/malithebrand/static/css/main.22620c54.css",
+    "main.css": "/malithebrand/static/css/main.35357918.css",
     "main.js": "/malithebrand/static/js/main.9ba2ef3f.js",
     "static/js/787.c12b3e00.chunk.js": "/malithebrand/static/js/787.c12b3e00.chunk.js",
     "static/media/mvlogo1.svg": "/malithebrand/static/media/mvlogo1.6efbafc44389019ed6f390306901eb7c.svg",
@@ -13,12 +13,12 @@
     "static/media/pulse.png": "/malithebrand/static/media/pulse.72c397daa392955aeaee.png",
     "static/media/belmont.png": "/malithebrand/static/media/belmont.a3c441fbb9dc20295321.png",
     "index.html": "/malithebrand/index.html",
-    "main.22620c54.css.map": "/malithebrand/static/css/main.22620c54.css.map",
+    "main.35357918.css.map": "/malithebrand/static/css/main.35357918.css.map",
     "main.9ba2ef3f.js.map": "/malithebrand/static/js/main.9ba2ef3f.js.map",
     "787.c12b3e00.chunk.js.map": "/malithebrand/static/js/787.c12b3e00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22620c54.css",
+    "static/css/main.35357918.css",
     "static/js/main.9ba2ef3f.js"
   ]
 }
