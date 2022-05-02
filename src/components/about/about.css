@@ -1,17 +1,18 @@
 
 .about__content{
 background:  url(../../assets/images/maliweb@0.33x.jpg);
-    height: 50vh;
+    height: 500px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10em;
+  margin-bottom: 0;
  
     
 }
+
 
 .about__text{
 
@@ -41,7 +42,9 @@ background:  url(../../assets/images/maliweb@0.33x.jpg);
 }
 
 @media (min-width: 1350px){
-   
+    .about__content{
+        margin-bottom: 0;
+    }
     .about__text{
         margin-right: -35em;
         z-index: 1;

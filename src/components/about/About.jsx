@@ -1,12 +1,18 @@
 import './about.css'
 import aboutImage from '../../assets/images/maliweb.jpg'
-
+import Marquee from "react-fast-marquee";
 const About = () => {
     return(
 
 
       
         <div className='about__container'>
+             <div className='animationText'>
+               <Marquee className='marquee' behavior="scroll" direction="left" speed={100} gradientColor="black">
+                <p>  A BRAVE NEW WORLD <span>OF ENDLESS POSSIBILITIES. </span> </p>
+                </Marquee>
+             </div>
+
             <div className='about__content'>
 
             <div className='about__text'>
@@ -17,6 +23,13 @@ const About = () => {
                 <img className='aboutImage' src={aboutImage} alt="" />
            
             </div>
+
+            <div className='animationText'>
+               <Marquee className='marquee' behavior="scroll" direction="right" speed={100} gradientColor="black">
+                <p>  A BRAVE NEW WORLD <span>OF ENDLESS POSSIBILITIES. </span> </p>
+                </Marquee>
+             </div>
+
         </div>
       
     )

@@ -3,31 +3,25 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+ 
 }
-.animationContent{
-  display: flex;
-  align-items: center;
-  align-self: center;
-  justify-content: center;
-  flex-direction: column;
 
-}
 .animationContainer .marquee{
 
 display: flex;
 justify-self: center;
-
+margin: 4em;
 }
 
    .animationText p{
-    font-size: 180px;
+    font-size: 80px;
     font-family:canela;
     text-align: left;
-    
+   
   }
   .animationText p span{
     font-size: 80px;
-    letter-spacing: 0;
+   
     margin: 4rem;
     margin-left: 0;
   }

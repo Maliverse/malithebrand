@@ -1,4 +1,4 @@
-import { Header, Services, Projects, Testimonials } from './containers';
+import { Header, Services } from './containers';
 import { Anime, Navbar, About, Brands } from './components';
 
 import './App.css';
@@ -16,7 +16,7 @@ import './App.css';
      <Navbar />
      <Header />
      <Services />
-     <Anime  />
+     
      <About />
      <Brands />
 
