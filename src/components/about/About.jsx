@@ -13,7 +13,7 @@ const About = () => {
                 </Marquee>
              </div>
 
-            <div className='about__content'>
+            <div className='about__content '>
 
             <div className='about__text'>
                 <h1 className='aboutName'>Akwunté Amali</h1>
