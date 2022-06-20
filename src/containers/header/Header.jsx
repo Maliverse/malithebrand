@@ -32,7 +32,8 @@ const Header = () => {
     default: {
       x: mousePosition.x - 16,
       y: mousePosition.y - 16,
-      backgroundColor: 'orange'
+      backgroundColor: 'orange',
+      mixBlendMode: ['screen']
     },
     text: {
       height: 150,

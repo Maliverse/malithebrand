@@ -1,6 +1,6 @@
 .cursor{
    background-color: rgba(251, 201, 0, 0.934);
-  
+ 
     height: 32px;
     width: 32px;
     border-radius: 50%;
@@ -85,7 +85,7 @@ text-align: center;
     justify-content: center;
     align-items: center;
     margin-top: 8rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 .divider-circle{
 
@@ -140,6 +140,10 @@ text-align: center;
        p{
         font-size: 9px;
         letter-spacing: 5px;
+        
+    }
+    .divider{
+        margin-bottom: 0;
     }
 }
 @media screen and (max-width: 350px) {
@@ -157,4 +161,5 @@ text-align: center;
         justify-content: center;
         
     }
+   
 }
