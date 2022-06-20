@@ -1,6 +1,6 @@
 import { Navbar, Header, Services, Projects } from './containers';
 import { About, Brands } from './components';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 
  
@@ -10,7 +10,16 @@ import './App.css';
 
       <div className='malithebrand__center-div'>
       <div className='malithebrand__app-container'>
+        
         <Navbar />
+        
+        <Routes>
+      
+        <Route path='/about' element = {<About />} />
+        <Route path='/projects' element = {<Projects />} />
+        
+        </Routes>
+   
         <Header />
         <Brands />
         <Services />

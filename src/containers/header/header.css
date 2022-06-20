@@ -85,7 +85,7 @@ text-align: center;
     justify-content: center;
     align-items: center;
     margin-top: 8rem;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 .divider-circle{
 
@@ -99,6 +99,7 @@ text-align: center;
    
     width: 25vw;
     border: 0.5px solid #E3DFD6;
+   
   
 }
 

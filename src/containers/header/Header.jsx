@@ -68,10 +68,10 @@ const Header = () => {
                 <p onMouseEnter={textEnter} onMouseLeave={textLeave}>A SUBTLE TOUCH OF EXTRAORDINARY</p>
 
                 <div className='malithebrand__social-icons'>
-                <RiGithubFill className='social_icon' color="#E3DFD6" size={45} />
-                <RiBehanceFill className='social_icon' color="#E3DFD6" size={45} />
-                <RiLinkedinBoxFill  className='social_icon' color="#E3DFD6" size={45} />
-                <RiTwitterFill className='social_icon' color="#E3DFD6" size={45} />
+                <RiGithubFill className='social_icon' color="#E3DFD6" size={30} />
+                <RiBehanceFill className='social_icon' color="#E3DFD6" size={30} />
+                <RiLinkedinBoxFill  className='social_icon' color="#E3DFD6" size={30} />
+                <RiTwitterFill className='social_icon' color="#E3DFD6" size={30} />
                 </div>
                 
             </div>

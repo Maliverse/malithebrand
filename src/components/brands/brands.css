@@ -47,6 +47,8 @@ img{
 @media screen and (max-width: 600px){
    .brands__container{
     margin-bottom: 10em;
+    background: none;
+    filter: invert(1);
    }
 }
 @media scree and (max-width: 280px){
