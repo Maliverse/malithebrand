@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/malithebrand/static/css/main.aeeb47bc.css",
-    "main.js": "/malithebrand/static/js/main.b8d99b63.js",
-    "static/js/787.c12b3e00.chunk.js": "/malithebrand/static/js/787.c12b3e00.chunk.js",
+    "main.css": "/malithebrand/static/css/main.082306b1.css",
+    "main.js": "/malithebrand/static/js/main.1c8689aa.js",
     "static/media/mvlogo1.svg": "/malithebrand/static/media/mvlogo1.6efbafc44389019ed6f390306901eb7c.svg",
     "static/media/maliweb@0.33x.jpg": "/malithebrand/static/media/maliweb@0.33x.a4fb86c19df7eeee18dc.jpg",
     "static/media/maliweb.jpg": "/malithebrand/static/media/maliweb.749bd3db158a48a0b98c.jpg",
@@ -13,12 +12,11 @@
     "static/media/pulse.png": "/malithebrand/static/media/pulse.72c397daa392955aeaee.png",
     "static/media/belmont.png": "/malithebrand/static/media/belmont.a3c441fbb9dc20295321.png",
     "index.html": "/malithebrand/index.html",
-    "main.aeeb47bc.css.map": "/malithebrand/static/css/main.aeeb47bc.css.map",
-    "main.b8d99b63.js.map": "/malithebrand/static/js/main.b8d99b63.js.map",
-    "787.c12b3e00.chunk.js.map": "/malithebrand/static/js/787.c12b3e00.chunk.js.map"
+    "main.082306b1.css.map": "/malithebrand/static/css/main.082306b1.css.map",
+    "main.1c8689aa.js.map": "/malithebrand/static/js/main.1c8689aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.aeeb47bc.css",
-    "static/js/main.b8d99b63.js"
+    "static/css/main.082306b1.css",
+    "static/js/main.1c8689aa.js"
   ]
 }
