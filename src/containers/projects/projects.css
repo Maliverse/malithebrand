@@ -4,18 +4,19 @@
     margin-top: 0;
     margin-bottom: 0;
     justify-content: center;
+    flex-direction: column;
 }
 .project__title{
     text-align: center;
     font-family: canela;
     align-self: center;
-    margin: 2rem;
+    margin: 4rem;
 }
 .project__cards{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
   
     
 }
@@ -29,11 +30,13 @@
     .project__container{
         flex-direction: column;
         margin: 5rem;
+        margin-top: 0;
     }
     .project__cards{
         justify-content: center;
         flex-direction: column;
         align-content: center;
     }
+    
   
 }

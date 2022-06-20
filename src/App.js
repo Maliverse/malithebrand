@@ -1,33 +1,25 @@
-import { Header, Services } from './containers';
-import { Anime, Navbar, About, Brands } from './components';
-
+import { Navbar, Header, Services, Projects } from './containers';
+import { About, Brands } from './components';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
 
-
+ 
   const App = () => {
-
-    
-
   return (
-   <div className='malithebrand__center-div'>
+    <Router>
 
-  
-   <div className='malithebrand__app-container'>
-     <Navbar />
-     <Header />
-     <Services />
-     
-     <About />
-     <Brands />
+      <div className='malithebrand__center-div'>
+      <div className='malithebrand__app-container'>
+        <Navbar />
+        <Header />
+        <Brands />
+        <Services />
+        <About />
+        <Projects />
+        </div>
+        </div>
 
-     
-     
-   
-   </div>
-    
-
-   </div>
-
+   </Router>
   );
 }
 

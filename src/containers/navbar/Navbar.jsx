@@ -2,15 +2,19 @@ import React, { useState } from "react";
 import './navbar.css';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/mvlogo1.svg';
+import { Link } from 'react-router-dom';
+
+
+
 //import { motion } from "framer-motion";
 
 const Menu = () => (
     <>
           <ul >
-            <li> <a href="#Home">Home</a></li>
-            <li> <a href="#About">About</a></li>
-            <li> <a href="#Projects">Projects</a></li>
-            <li> <a href="#Contact">Contact</a></li>
+            <li> <Link to="/">Home</Link></li>
+            <li> <Link to="/about">About</Link></li>
+            <li> <Link to="/projects">Projects</Link></li>
+            <li> <Link to="/contact">Contact</Link></li>
         </ul>
     </>
 )

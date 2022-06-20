@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import './header.css';
 import { motion } from "framer-motion";
+import { RiGithubFill, RiBehanceFill, RiLinkedinBoxFill, RiTwitterFill } from 'react-icons/ri';
 
 const Header = () => {
 
@@ -55,6 +56,7 @@ const Header = () => {
   const textEnter = () => setCursorVariant("text");
   const textLeave = () => setCursorVariant("default");
   //const textDisappear = () => setCursorVariant("disappear")
+  
 
     return (
         <div className='malithebrand__header-container  '>
@@ -64,10 +66,18 @@ const Header = () => {
             <div className='malithebrand__header-title'>
                 <h1 onMouseEnter={textEnter} onMouseLeave={textLeave} className='malithebrand__header-name tracking-in-contract-bck'>MALIVERSE</h1>
                 <p onMouseEnter={textEnter} onMouseLeave={textLeave}>A SUBTLE TOUCH OF EXTRAORDINARY</p>
+
+                <div className='malithebrand__social-icons'>
+                <RiGithubFill className='social_icon' color="#E3DFD6" size={45} />
+                <RiBehanceFill className='social_icon' color="#E3DFD6" size={45} />
+                <RiLinkedinBoxFill  className='social_icon' color="#E3DFD6" size={45} />
+                <RiTwitterFill className='social_icon' color="#E3DFD6" size={45} />
+                </div>
+                
             </div>
             <div className='malithebrand__button'>
             <button onMouseEnter={textEnter} onMouseLeave={textLeave} className='jello-horizontal'>Contact</button>
-            
+ 
             </div>
 
             <motion.div
@@ -79,7 +89,14 @@ const Header = () => {
 
             </div>
 
-      
+<div className='divider'>
+
+<div className='line-divider'> </div>
+<div className='divider-circle'></div>
+<div className='line-divider'> </div>
+
+</div>
+           
         </div>
     )
 }

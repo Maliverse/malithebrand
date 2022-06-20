@@ -1,8 +1,28 @@
 import './brands.css';
-import { agp, belmont, confirmers, igs, mirro, pulse, wa} from './imports';
-import Marquee from 'react-fast-marquee';
+import { agp, belmont, confirmers, igs, mirro, pulse} from './imports';
+//import Marquee from 'react-fast-marquee';
+
+
 
 const Brands = () => {
+
+  const brandsObserver = document.querySelectorAll('.brands__container')
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        entry.target.classList.toggle('slide', entry.isIntersecting)
+       //if(entry.isIntersecting) observer.unobserve(entry.target)
+        })
+    },
+        {
+            threshold: 0.1
+        }
+    )
+  
+    brandsObserver.forEach(brands__container => {
+      observer.observe(brands__container)
+      }) 
+
     return (
      // <Marquee className='marquee' behavior="scroll" direction="left" speed={100} gradientColor="black">
      
@@ -31,9 +51,7 @@ const Brands = () => {
       <img src={pulse} alt="pulse" />
       </div>
 
-      <div className='brand seven'>
-      <img src={wa} alt="wa" />
-      </div>
+      
 
       </div>
       // </Marquee>
