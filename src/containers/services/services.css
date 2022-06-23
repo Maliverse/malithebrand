@@ -33,7 +33,7 @@ text-align: center;
     justify-content: center;
     text-align: center;
     align-items: center;
-    
+   
 }
 .malithebrand__product-offerings_brand-identity p,
 .malithebrand__product-offerings_ui-ux p,
@@ -51,6 +51,8 @@ text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 100;
+    mix-blend-mode: screen;
 }
 @media screen and (max-width: 1350px) {
     .malithebrand__product-offerings{
