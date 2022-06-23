@@ -11,10 +11,10 @@ import { Link } from 'react-router-dom';
 const Menu = () => (
     <>
           <ul >
-            <li> <Link to="/">Home</Link></li>
-            <li> <Link to="/about">About</Link></li>
-            <li> <Link to="/projects">Projects</Link></li>
-            <li> <Link to="/contact">Contact</Link></li>
+          <li> <a href="#Home">Home</a></li>
+            <li> <a href="#About">About</a></li>
+            <li> <a href="#Projects">Projects</a></li>
+            <li> <a href="#Contact">Contact</a></li>
         </ul>
     </>
 )

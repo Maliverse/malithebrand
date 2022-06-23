@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Projects = () => {
     return(
-        <div className="project__container" id="projects">
+        <div className="project__container" id="Projects">
 <div className="project__title">
         <h1>Some <br /> interesting projects</h1>
  </div>

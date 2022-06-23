@@ -60,7 +60,7 @@ const Header = () => {
   
 
     return (
-        <div className='malithebrand__header-container  '>
+        <div className='malithebrand__header-container ' id='Home'> 
 
             <div className='malithebrand__header-top'>
 
