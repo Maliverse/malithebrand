@@ -10,7 +10,6 @@ import './App.css';
 
       <div className='malithebrand__center-div'>
       <div className='malithebrand__app-container'>
-        
         <Navbar />
         <Header />
         <Services />

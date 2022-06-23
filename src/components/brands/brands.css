@@ -4,23 +4,15 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 8rem;  
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 4em;
     background: #E3DFD6;
-    border-radius: 30px;
-    max-width: 100vw;
-    
+    max-width: 100%;
 }
-.brands__container.slide{
-    transform: translateX(0);
-    opacity: 1;
-   
-}
-.brand{
- margin: 4rem;
- filter: invert(2);
 
+.brand{
+
+ filter: invert(2);
+ transform: scale(0.3);
 }
 
 img{
@@ -32,12 +24,10 @@ img{
 @media screen and (max-width: 1350px){
    
      .brands__container{
-       
-         
          align-items: center;
          justify-content: center;
          flex-wrap: wrap;
-         
+         margin-top: 0;
      }
      img{
         width: 20px ;
@@ -46,16 +36,22 @@ img{
 }
 @media screen and (max-width: 600px){
    .brands__container{
-    margin-bottom: 10em;
-    background: none;
-    filter: invert(1);
+    margin-bottom: 0;
+    margin-top: 0;
+    transform: scale(0.5);
+    flex-direction: row;
+   }
+   .brand{
+   margin: 4rem ;
+   transform: scale(1);
    }
 }
-@media scree and (max-width: 280px){
-
-    .brand{
-        margin: 7rem;
-       
+@media screen and (max-width: 280px){
+    .brands__container {
+        margin-bottom: 0;
+        margin-top: 0;
+        flex-direction: row;
+   
        
        }
 }

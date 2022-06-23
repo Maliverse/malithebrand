@@ -1,11 +1,3 @@
-
-*{
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-  margin: 0;
-  padding: 0;
-  
-}
 html{
   margin:0;
   padding:0;
@@ -14,16 +6,24 @@ html{
  body{
   background: #2D322B;
   color: #E3DFD6; 
-  overflow-x: hidden;
+  
+
 
 }
+*{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  
+}
+
 
 
 a{
   color: unset;
   text-decoration: none;
 }
-
 
 /*.section__padding{
   padding: 4rem 6rem;
