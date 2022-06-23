@@ -5,9 +5,13 @@
     align-items: center;
     padding: 2rem;
     font-family:FoundersGrotesk-light;
-    position: relative;
-   
-    
+    position: fixed;
+    background-color: ;background: #2D322B;
+    width: 100vw;
+    z-index: 100;
+    max-height: 2px;
+    min-height: 2px;
+
 
 }
 .logo{
@@ -29,6 +33,7 @@
  flex-direction: row;
  list-style: none;
  cursor: pointer;
+ position: relative;
 }
 ul li{
     margin: 20px;
@@ -81,10 +86,9 @@ a:hover{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 2rem;
-        margin: 5rem;
-        margin-top: 0;
-        margin-bottom: 0;
+        width: 100%;
+        
+       
     }
     .navbar-menu{
         display: flex;
@@ -102,21 +106,13 @@ a:hover{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0 0;
-       
-        margin-top: 3em;
-        margin-bottom: 0;
+       width: 100%;
     }
 }
 @media screen and (max-width: 280px){
     .navbar__container{
         display: flex;
         justify-content: space-between;
-        
-        padding: 0 0;
-     
-        margin-top: 3em;
-        margin-bottom: 0;
     }
     a:hover{
         color: orange;

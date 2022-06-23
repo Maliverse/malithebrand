@@ -8,7 +8,7 @@ class Services extends Component {
     render () {
    
     return(
-        <div className='malithebrand__product-offerings'>
+        <div className='malithebrand__product-offerings' id='Services'>
           
           <div className='malithebrand__product-heading'>
           <h1>Service Categories</h1>

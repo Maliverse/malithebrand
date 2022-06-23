@@ -18,6 +18,7 @@
   width: 100%;
   align-items: center;
   
+  
 }
 
 
@@ -27,6 +28,7 @@
  text-align: center;
  position: relative;
  margin-bottom: 2rem;
+ margin-top: 5rem;
 }
 .malithebrand__header-name {
     margin: 5rem;

@@ -12,9 +12,11 @@ const Menu = () => (
     <>
           <ul >
           <li> <a href="#Home">Home</a></li>
+          <li> <a href="#Services">Services</a></li>
             <li> <a href="#About">About</a></li>
             <li> <a href="#Projects">Projects</a></li>
             <li> <a href="#Contact">Contact</a></li>
+
         </ul>
     </>
 )
@@ -24,12 +26,12 @@ const Navbar = () => {
 
 
     return(
-        <div className="navbar__container" id='Home'> 
+        <div className="navbar__container" > 
         
 
        
                 <div className="navbar__container-logo">
-                <img className="logo" src={logo} alt="logo"/>
+              <a href="http://maliverse.github.io/malithebrand"> <img className="logo" src={logo} alt="logo"/></a>
                 </div>
                 
                 <div className="navbar__container-list">
