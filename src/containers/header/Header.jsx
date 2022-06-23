@@ -69,10 +69,13 @@ const Header = () => {
                 <p onMouseEnter={textEnter} onMouseLeave={textLeave}>A SUBTLE TOUCH OF EXTRAORDINARY</p>
 
                 <div className='malithebrand__social-icons'>
-                <RiGithubFill className='social_icon' color="#E3DFD6" size={30} />
-                <RiBehanceFill className='social_icon' color="#E3DFD6" size={30} />
-                <RiLinkedinBoxFill  className='social_icon' color="#E3DFD6" size={30} />
-                <RiTwitterFill className='social_icon' color="#E3DFD6" size={30} />
+                  <a href="https://github.com/Maliverse"> <RiGithubFill className='social_icon' color="#E3DFD6" size={30} /></a>
+                  <a href="https://www.behance.net/akwunte"><RiBehanceFill className='social_icon' color="#E3DFD6" size={30} /></a>
+                  <a href="https://www.linkedin.com/in/akwunteamali/"><RiLinkedinBoxFill  className='social_icon' color="#E3DFD6" size={30} /></a>
+                  <a href="https://twitter.com/Whatismalidoing"><RiTwitterFill className='social_icon' color="#E3DFD6" size={30} /></a>
+         
+                
+                
                 </div>
                 
             </div>

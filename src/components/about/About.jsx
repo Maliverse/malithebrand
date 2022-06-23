@@ -20,7 +20,8 @@ const About = () => {
             <div className='about__text'>
                 <h1 className='aboutName'>Akwunté Amali</h1>
                 <p>DESIGNER & DEVELOPER </p>
-                <button className='jello-horizontal'>See More</button>
+              <p className='about-intro'>Akwunté “Maliverse” Amali is a developer and designer hybrid who is highly intrigued by technology, branding and innovation.
+With a strong background in design and with his skills in advanced development tools, <br /> he is dedicated to building visually stunning user-centered products, relevant for the modern age.</p>
                 </div>
                 <img className='aboutImage' src={aboutImage} alt="Akwunte" />
            
