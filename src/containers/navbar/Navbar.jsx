@@ -31,7 +31,7 @@ const Navbar = () => {
 
        
                 <div className="navbar__container-logo">
-              <a href="http://maliverse.github.io/malithebrand"> <img className="logo" src={logo} alt="logo"/></a>
+              <a href="#Home"> <img className="logo" src={logo} alt="logo"/></a>
                 </div>
                 
                 <div className="navbar__container-list">
