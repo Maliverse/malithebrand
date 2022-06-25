@@ -25,7 +25,69 @@
     width: 350px;
     background: red;
     margin: 2rem;
+    display: flex;
+    flex-direction: column;
+   border-top-left-radius: 50px;
+   border-bottom-right-radius: 40px;
+
 }
+.card:hover{
+   
+    transform: scale(1.1);
+    transition-duration: 300ms;
+   
+}
+.card-frame{
+    background-color: black;
+    background-image: url(../../assets/images/echothumb@0.3x.jpg);
+    display: flex;
+    justify-content: center;
+    height: 70%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 50px;
+ 
+}
+.card_icon-box{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    align-items: center;
+    background: none;
+
+}
+.card_icon svg{
+    border: 1px solid orange;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 8px;
+    background-color: rgba(0, 0, 0, 0.082);
+    height: 3.5rem;
+    width: 3.5rem;
+    display: flex;
+    justify-content: center;
+}
+.card_icon svg:hover{
+    transform: scale(1.1);
+    transition-duration: 300ms;
+   background: black;
+}
+
+.card_title-block{
+ 
+   background: black;
+   padding: 5px;
+   color: rgb(255, 255, 255);
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+    transition-duration: 300ms;
+   font-size: 20px;
+   border-bottom-right-radius: 50px;
+   width: 100%;
+}
+
 @media screen and (max-width: 1350px){
     .project__container{
         flex-direction: column;
