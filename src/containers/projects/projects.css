@@ -27,8 +27,9 @@
     margin: 2rem;
     display: flex;
     flex-direction: column;
-   border-top-left-radius: 50px;
+
    border-bottom-right-radius: 40px;
+  
 
 }
 .card:hover{
@@ -46,8 +47,8 @@
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    border-top-left-radius: 50px;
  
+    
 }
 .card_icon-box{
     display: flex;
@@ -84,7 +85,7 @@
    flex-direction: column;
     transition-duration: 300ms;
    font-size: 20px;
-   border-bottom-right-radius: 50px;
+ 
    width: 100%;
 }
 
