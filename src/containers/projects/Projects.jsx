@@ -13,7 +13,7 @@ const Projects = () => {
         <div className="project__cards ">
             <div className="card one">
 
-                <div className="card-frame"></div>
+                <div className="card-frame cardOne"></div>
 
                 <div className="card_icon-box">
                     <div className="card_icon">
@@ -30,27 +30,28 @@ const Projects = () => {
                </div>
             <div className="card two">
 
-            <div className="card-frame"></div>
+            <div className="card-frame cardTwo"></div>
 
 <div className="card_icon-box">
     <div className="card_icon">
-    <FiFigma color="orange" size={30}/>
+    <a href="https://www.figma.com/file/lz9lLpFHMxHm2odnwM3R0z/gpt3?node-id=0%3A1"> <FiFigma color="orange" size={30}/></a>
     </div>
     <div className="card_icon">
-    <FiLink color="orange" size={30} />
+        <a href="https://maliverse.github.io/ai-website-react/">   <FiLink color="orange" size={30} /></a>
     </div>
 </div>
 
 
-<div className="card_title-block"> Echohealth Website </div>
+<div className="card_title-block"> GPT3 OPEN AI </div>
             </div>
             <div className="card three">
 
-            <div className="card-frame"></div>
+            <div className="card-frame three"></div>
 
 <div className="card_icon-box">
     <div className="card_icon">
-    <FiFigma color="orange" size={30}/>
+        <a href="https://www.figma.com/file/lz9lLpFHMxHm2odnwM3R0z/gpt3?node-id=0%3A1"> <FiFigma color="orange" size={30}/></a>
+   
     </div>
     <div className="card_icon">
     <FiLink color="orange" size={30} />

@@ -40,14 +40,27 @@
 }
 .card-frame{
     background-color: black;
-    background-image: url(../../assets/images/echothumb@0.3x.jpg);
+  
     display: flex;
     justify-content: center;
-    height: 70%;
+    height: 100%;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
  
+    
+}
+.cardOne{
+    background-image: url(../../assets/images/echothumb@0.3x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.cardTwo{
+    background-image: url(../../assets/images/thumnai\ gpt3l.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
 .card_icon-box{
@@ -55,7 +68,8 @@
     justify-content:center;
     flex-direction: row;
     align-items: center;
-    background: none;
+
+    background: rgba(0, 0, 0, 0.902);
 
 }
 .card_icon svg{
@@ -73,11 +87,12 @@
     transform: scale(1.1);
     transition-duration: 300ms;
    background: black;
+   cursor: pointer;
 }
 
 .card_title-block{
  
-   background: black;
+ 
    padding: 5px;
    color: rgb(255, 255, 255);
    text-align: center;
@@ -85,7 +100,6 @@
    flex-direction: column;
     transition-duration: 300ms;
    font-size: 20px;
- 
    width: 100%;
 }
 
