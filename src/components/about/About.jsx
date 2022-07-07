@@ -29,7 +29,7 @@ With a strong background in design and with his skills in advanced development t
 
             <div className='animationText'>
                <Marquee className='marquee' behavior="scroll" direction="right" speed={100} gradientColor="black">
-                <p>  A BRAVE NEW WORLD OF <span> ENDLESS POSSIBILITIES. </span> </p>
+                <p>  CONSISTENTLY BUILDING <strong> BRANDS THAT WIN. </strong> </p>
                 </Marquee>
              </div>
 

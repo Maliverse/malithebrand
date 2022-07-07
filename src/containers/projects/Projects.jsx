@@ -11,16 +11,18 @@ const Projects = () => {
  </div>
 
         <div className="project__cards ">
+
             <div className="card one">
 
                 <div className="card-frame cardOne"></div>
 
                 <div className="card_icon-box">
                     <div className="card_icon">
-                    <FiFigma color="orange" size={30}/>
+                  <a href="https://www.figma.com/file/F4agL7FPCmFIl6IqXvgMQy/NEXUS-HUMANITARIAN?node-id=0%3A1"> <FiFigma color="orange" size={30}/></a> 
                     </div>
                     <div className="card_icon">
-                    <FiLink color="orange" size={30} />
+                        <a href="https://maliverse.github.io/echohealth"> <FiLink color="orange" size={30} /></a>
+                   
                     </div>
                 </div>
 
@@ -28,6 +30,8 @@ const Projects = () => {
                 <div className="card_title-block"> Echohealth Website </div>
               
                </div>
+
+
             <div className="card two">
 
             <div className="card-frame cardTwo"></div>
@@ -44,9 +48,11 @@ const Projects = () => {
 
 <div className="card_title-block"> GPT3 OPEN AI </div>
             </div>
+
+
             <div className="card three">
 
-            <div className="card-frame three"></div>
+            <div className="card-frame cardThree"></div>
 
 <div className="card_icon-box">
     <div className="card_icon">
@@ -54,12 +60,12 @@ const Projects = () => {
    
     </div>
     <div className="card_icon">
-    <FiLink color="orange" size={30} />
+   {/* <FiLink color="orange" size={30} /> */} 
     </div>
 </div>
 
 
-<div className="card_title-block"> Echohealth Website </div>
+<div className="card_title-block"> Nexus Humanitarian </div>
             </div>
             <div className="card four">
 
@@ -75,7 +81,7 @@ const Projects = () => {
 </div>
 
 
-<div className="card_title-block"> Echohealth Website </div>
+<div className="card_title-block"> Project </div>
             </div>
             <div className="card five">
 
@@ -91,7 +97,7 @@ const Projects = () => {
 </div>
 
 
-<div className="card_title-block"> Echohealth Website </div>
+<div className="card_title-block"> Project </div>
             </div>
             <div className="card six">
 
@@ -107,7 +113,7 @@ const Projects = () => {
 </div>
 
 
-<div className="card_title-block"> Echohealth Website </div>
+<div className="card_title-block"> Project </div>
             </div>
         </div>
 
