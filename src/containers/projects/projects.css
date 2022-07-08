@@ -173,6 +173,24 @@
 
     .project__title{
     
+        margin: 0;
+      
+     
+    }
+
+    
+  
+}
+@media screen and (max-width: 414px){
+ 
+    .project__container{
+    
+       
+       padding-top: 0;
+     
+    }
+    .project__title{
+    
         margin: 5rem;
         margin-top: 0;
      
