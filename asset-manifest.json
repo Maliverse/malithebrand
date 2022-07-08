@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/malithebrand/static/css/main.30b6a015.css",
-    "main.js": "/malithebrand/static/js/main.263bec28.js",
+    "main.css": "/malithebrand/static/css/main.b5d8eeb7.css",
+    "main.js": "/malithebrand/static/js/main.13ecf926.js",
     "static/media/echothumb@0.3x.jpg": "/malithebrand/static/media/echothumb@0.3x.769bff3188fe97e55092.jpg",
     "static/media/mvlogo1.svg": "/malithebrand/static/media/mvlogo1.6efbafc44389019ed6f390306901eb7c.svg",
     "static/media/PASSPORT.jpg": "/malithebrand/static/media/PASSPORT.e486854b812871863f15.jpg",
@@ -16,11 +16,11 @@
     "static/media/pulse.png": "/malithebrand/static/media/pulse.72c397daa392955aeaee.png",
     "static/media/belmont.png": "/malithebrand/static/media/belmont.a3c441fbb9dc20295321.png",
     "index.html": "/malithebrand/index.html",
-    "main.30b6a015.css.map": "/malithebrand/static/css/main.30b6a015.css.map",
-    "main.263bec28.js.map": "/malithebrand/static/js/main.263bec28.js.map"
+    "main.b5d8eeb7.css.map": "/malithebrand/static/css/main.b5d8eeb7.css.map",
+    "main.13ecf926.js.map": "/malithebrand/static/js/main.13ecf926.js.map"
   },
   "entrypoints": [
-    "static/css/main.30b6a015.css",
-    "static/js/main.263bec28.js"
+    "static/css/main.b5d8eeb7.css",
+    "static/js/main.13ecf926.js"
   ]
 }
