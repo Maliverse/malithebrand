@@ -1,6 +1,7 @@
-import { Navbar, Header, Services, Projects } from './containers';
+import { Navbar, Header, Services, Projects, Reviews } from './containers';
 import { About, Brands, } from './components';
 import './App.css';
+
 
  
   const App = () => {
@@ -15,7 +16,7 @@ import './App.css';
         <About />
         <Brands />
         <Projects />
-        
+        <Reviews />
         </div>
         </div>
 

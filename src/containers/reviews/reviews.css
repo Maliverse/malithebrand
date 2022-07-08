@@ -1,0 +1,14 @@
+.reviews-container{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+    
+}
+.review-title{
+    text-align: center;
+    font-family: canela;
+    align-self: center;
+    margin-top: 4rem;
+}

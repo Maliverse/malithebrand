@@ -80,8 +80,7 @@ const Header = () => {
                 
             </div>
             <div className='malithebrand__button'>
-            <button onMouseEnter={textEnter} onMouseLeave={textLeave} className='jello-horizontal'>Contact</button>
- 
+              <a href="mailto: amaliakwunte@gmail.com"><button onMouseEnter={textEnter} onMouseLeave={textLeave} className='jello-horizontal'>Contact</button> </a>
             </div>
 
             <motion.div

@@ -1,5 +1,5 @@
 import './about.css'
-import aboutImage from '../../assets/images/maliweb.jpg'
+import aboutImage from '../../assets/images/maliweb.jpg';
 import Marquee from "react-fast-marquee";
 
 
@@ -29,7 +29,7 @@ With a strong background in design and with his skills in advanced development t
 
             <div className='animationText'>
                <Marquee className='marquee' behavior="scroll" direction="right" speed={100} gradientColor="black">
-                <p>  CONSISTENTLY BUILDING <strong> BRANDS THAT WIN. </strong> </p>
+                <p> BUILDING <strong> BRANDS THAT WIN </strong> CONSISTENTLY. </p>
                 </Marquee>
              </div>
 

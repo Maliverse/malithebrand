@@ -96,7 +96,7 @@ const Projects = () => {
     </div>
 </div>
 
-
+{/* 
 <div className="card_title-block"> Project </div>
             </div>
             <div className="card six">
@@ -111,7 +111,7 @@ const Projects = () => {
     <FiLink color="orange" size={30} />
     </div>
 </div>
-
+*/}
 
 <div className="card_title-block"> Project </div>
             </div>
