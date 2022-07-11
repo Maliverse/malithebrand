@@ -1,26 +1,30 @@
 {
   "files": {
-    "main.css": "/malithebrand/static/css/main.b5d8eeb7.css",
-    "main.js": "/malithebrand/static/js/main.13ecf926.js",
+    "main.css": "/malithebrand/static/css/main.debec032.css",
+    "main.js": "/malithebrand/static/js/main.8de272a4.js",
+    "static/media/botanical.jpg": "/malithebrand/static/media/botanical.f738584d20429ba9d55a.jpg",
+    "static/media/drakare.jpg": "/malithebrand/static/media/drakare.e39415df1075ef44db89.jpg",
     "static/media/echothumb@0.3x.jpg": "/malithebrand/static/media/echothumb@0.3x.769bff3188fe97e55092.jpg",
     "static/media/mvlogo1.svg": "/malithebrand/static/media/mvlogo1.6efbafc44389019ed6f390306901eb7c.svg",
-    "static/media/PASSPORT.jpg": "/malithebrand/static/media/PASSPORT.e486854b812871863f15.jpg",
     "static/media/maliweb@0.33x.jpg": "/malithebrand/static/media/maliweb@0.33x.a4fb86c19df7eeee18dc.jpg",
     "static/media/maliweb.jpg": "/malithebrand/static/media/maliweb.749bd3db158a48a0b98c.jpg",
     "static/media/NEXUS THUMBNAIL@0.3x.jpg": "/malithebrand/static/media/NEXUS THUMBNAIL@0.3x.3521cdc0ba1aa285e175.jpg",
+    "static/media/sesmo.jpeg": "/malithebrand/static/media/sesmo.b6d833aad3a6d1bc8270.jpeg",
     "static/media/Canela-Thin.otf": "/malithebrand/static/media/Canela-Thin.c34bef0ddac1781abf43.otf",
+    "static/media/karis.jpg": "/malithebrand/static/media/karis.ecac2749faa82766391f.jpg",
     "static/media/thumnai gpt3l.jpg": "/malithebrand/static/media/thumnai gpt3l.c1d7b411a7358ad50717.jpg",
+    "static/media/church.jpeg": "/malithebrand/static/media/church.5bfd44e710ea107d9773.jpeg",
     "static/media/FoundersGrotesk-Light.otf": "/malithebrand/static/media/FoundersGrotesk-Light.d629d42efd025e8920c6.otf",
     "static/media/agp.png": "/malithebrand/static/media/agp.81a8ba874cdf543b608b.png",
     "static/media/igs.png": "/malithebrand/static/media/igs.d57321d113b2c7773443.png",
     "static/media/pulse.png": "/malithebrand/static/media/pulse.72c397daa392955aeaee.png",
     "static/media/belmont.png": "/malithebrand/static/media/belmont.a3c441fbb9dc20295321.png",
     "index.html": "/malithebrand/index.html",
-    "main.b5d8eeb7.css.map": "/malithebrand/static/css/main.b5d8eeb7.css.map",
-    "main.13ecf926.js.map": "/malithebrand/static/js/main.13ecf926.js.map"
+    "main.debec032.css.map": "/malithebrand/static/css/main.debec032.css.map",
+    "main.8de272a4.js.map": "/malithebrand/static/js/main.8de272a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5d8eeb7.css",
-    "static/js/main.13ecf926.js"
+    "static/css/main.debec032.css",
+    "static/js/main.8de272a4.js"
   ]
 }
