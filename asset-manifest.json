@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/malithebrand/static/css/main.debec032.css",
+    "main.css": "/malithebrand/static/css/main.a7efdd70.css",
     "main.js": "/malithebrand/static/js/main.8de272a4.js",
     "static/media/botanical.jpg": "/malithebrand/static/media/botanical.f738584d20429ba9d55a.jpg",
     "static/media/drakare.jpg": "/malithebrand/static/media/drakare.e39415df1075ef44db89.jpg",
@@ -20,11 +20,11 @@
     "static/media/pulse.png": "/malithebrand/static/media/pulse.72c397daa392955aeaee.png",
     "static/media/belmont.png": "/malithebrand/static/media/belmont.a3c441fbb9dc20295321.png",
     "index.html": "/malithebrand/index.html",
-    "main.debec032.css.map": "/malithebrand/static/css/main.debec032.css.map",
+    "main.a7efdd70.css.map": "/malithebrand/static/css/main.a7efdd70.css.map",
     "main.8de272a4.js.map": "/malithebrand/static/js/main.8de272a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.debec032.css",
+    "static/css/main.a7efdd70.css",
     "static/js/main.8de272a4.js"
   ]
 }
