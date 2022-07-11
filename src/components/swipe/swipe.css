@@ -1,5 +1,7 @@
 .swipe-container{
-    background: #1e241c;
+    background: #1e241c url(../../assets/images/botanical.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     margin-top: 100px;
     margin-bottom: 100px;
     padding-top: 100px;
@@ -28,15 +30,38 @@
   text-align: left;
   padding: 2rem;
 }
-  .swiper-img{
+  .swiper-img, .a{
     height: 5rem;
     width: 5rem;
-    background: url(../../assets/images/PASSPORT.jpg);
+    background: url(../../assets/images/karis.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 100%;
   }
-  
+  .b{
+    height: 5rem;
+    width: 5rem;
+    background: url(../../assets/images/sesmo.jpeg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+  }
+  .c{
+    height: 5rem;
+    width: 5rem;
+    background: url(../../assets/images/church.jpeg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+  }
+  .d{
+    height: 5rem;
+    width: 5rem;
+    background: url(../../assets/images/drakare.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+  }
   .swiper-slide:nth-child(1n) {
     background-color: rgb(206, 17, 17);
   }

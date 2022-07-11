@@ -26,26 +26,32 @@ export default function Swipe() {
          <h1 className="swiper-text">
          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorum beatae.
           </h1> 
-          <div className="swiper-img"></div>
-          
+          <div className="swiper-img a"></div>
+          <h2>Dr. Karis E. Ameh-Wealth</h2>
           </SwiperSlide>
+
         <SwiperSlide>
         <h1 className="swiper-text">
          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorum beatae.
           </h1> 
-          <div className="swiper-img"></div>
+          <div className="swiper-img b"></div>
+          <h2>Sesmo</h2>
         </SwiperSlide>
+
         <SwiperSlide>
         <h1 className="swiper-text">
          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorum beatae.
           </h1> 
-          <div className="swiper-img"></div>
+          <div className="swiper-img c"></div>
+          <h2>Emmanuel Werna</h2>
         </SwiperSlide>
+
         <SwiperSlide>
         <h1 className="swiper-text">
          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorum beatae.
           </h1> 
-          <div className="swiper-img"></div>
+          <div className="swiper-img d"></div>
+          <h2>Dooyum Abaa</h2>
         </SwiperSlide>
         <SwiperSlide>
         <h1 className="swiper-text">
@@ -59,6 +65,7 @@ export default function Swipe() {
         <SwiperSlide>Slide 9</SwiperSlide> */}
       </Swiper>
     </>
+
     </div>
   );
 }

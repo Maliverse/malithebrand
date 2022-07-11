@@ -1,6 +1,7 @@
-import { Navbar, Header, Services, Projects, Reviews } from './containers';
+import { Navbar, Header, Services, Projects, Reviews,  } from './containers';
 import { About, Brands, } from './components';
 import './App.css';
+import Footer from './containers/footer/Footer';
 
 
  
@@ -17,6 +18,7 @@ import './App.css';
         <Brands />
         <Projects />
         <Reviews />
+        <Footer />
         </div>
         </div>
 
