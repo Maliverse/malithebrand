@@ -53,11 +53,13 @@ export default function Swipe() {
           <div className="swiper-img d"></div>
           <h2>Dooyum Abaa</h2>
         </SwiperSlide>
+
         <SwiperSlide>
         <h1 className="swiper-text">
          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorum beatae.
           </h1> 
           <div className="swiper-img"></div>
+          <h2>Ebenezer Adedayor</h2>
         </SwiperSlide>
         {/* <SwiperSlide>Slide 6</SwiperSlide>
         <SwiperSlide>Slide 7</SwiperSlide>
