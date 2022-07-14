@@ -66,7 +66,7 @@ const Header = () => {
 
             <div className='malithebrand__header-title'>
                 <h1 onMouseEnter={textEnter} onMouseLeave={textLeave} className='malithebrand__header-name tracking-in-contract-bck'>MALIVERSE</h1>
-                <p onMouseEnter={textEnter} onMouseLeave={textLeave}>A SUBTLE TOUCH OF EXTRAORDINARY</p>
+                <p>A SUBTLE TOUCH OF EXTRAORDINARY</p>
 
                 <div className='malithebrand__social-icons'>
                   <a href="https://github.com/Maliverse"> <RiGithubFill className='social_icon' color="#E3DFD6" size={30} /></a>
