@@ -1,0 +1,201 @@
+.project__container{
+    display: flex;
+    margin: 5em ;
+  
+    margin-bottom: 0;
+    justify-content: center;
+    flex-direction: column;
+}
+.project__title{
+    text-align: center;
+    font-family: canela;
+    align-self: center;
+    margin: 4rem;
+    margin-top: 0;
+   
+    
+}
+.project__cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  
+    
+}
+.card {
+    height: 350px;
+    width: 350px;
+    background: rgb(215, 0, 0);
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+
+   border-bottom-right-radius: 40px;
+  
+
+}
+.card:hover{
+   
+    transform: scale(1.1);
+    transition-duration: 300ms;
+    border: 2px solid red;
+    box-shadow: 0 15px 30px rgba(255, 0, 0, 0.322);
+   
+}
+.card-frame{
+    background-color: black;
+  
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+    
+}
+.cardOne{
+    background-image: url(../../assets/images/echothumb@0.3x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.cardTwo{
+    background-image: url(../../assets/images/thumnai\ gpt3l.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.cardThree{
+    background-image: url(../../assets/images/NEXUS\ THUMBNAIL@0.3x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.card_icon-box{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    align-items: center;
+
+    background:red;
+
+}
+.card_icon svg{
+    border: 1px solid orange;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 8px;
+    background-color: rgba(0, 0, 0, 0.082);
+    height: 3.5rem;
+    width: 3.5rem;
+    display: flex;
+    justify-content: center;
+}
+.card_icon svg:hover{
+    transform: scale(1.1);
+    transition-duration: 300ms;
+   background: black;
+   cursor: pointer;
+}
+
+.card_title-block{
+ 
+ 
+   padding: 5px;
+   color: rgb(255, 255, 255);
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+    transition-duration: 300ms;
+   font-size: 20px;
+   width: 100%;
+}
+
+@media screen and (max-width: 1350px){
+    .project__container{
+        flex-direction: column;
+       margin-top: 0;
+       
+    }
+    .project__cards{
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+    }
+    .project__title{
+    
+        margin: 5rem;
+        margin-top: 0;
+    }
+  
+}
+@media screen and (max-width: 1280px) {
+ 
+
+    .project__title{
+    
+        
+        margin-top: 6.5rem;
+    }
+
+    
+  
+}
+@media screen and (max-width: 1024px) {
+ 
+
+    .project__title{
+    
+        
+        margin-top: 6.5rem;
+    }
+
+    
+  
+}
+    @media screen and (max-width: 912px){
+ 
+
+    .project__title{
+    
+        
+        margin-top: 6.5rem;
+    }
+
+    
+  
+}
+@media screen and (max-width: 412px){
+ 
+
+    .project__title{
+    
+        margin: 0;
+      
+     
+    }
+
+    
+  
+}
+@media screen and (max-width: 414px){
+ 
+    .project__container{
+    
+       
+       padding-top: 0;
+     
+    }
+    .project__title{
+    
+        margin: 5rem;
+        margin-top: 0;
+     
+    }
+
+    
+  
+}

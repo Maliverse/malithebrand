@@ -1,0 +1,83 @@
+
+.about__content{
+    background:  url(../../assets/images/maliweb@0.33x.jpg);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  margin-bottom: 0;
+ 
+    
+}
+
+
+.about__text{
+
+    
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    
+    
+}
+.aboutName{
+    font-family: canela;
+    font-size: 60px;
+}
+
+.about__text p{
+    font-family: FoundersGrotesk-light;
+    margin: 1rem;
+    
+}
+.aboutImage{
+    width: 1050px;
+    display: none;
+   
+}
+.about-intro{
+    letter-spacing: 0;
+    text-align: left;
+    border-top: 1px solid white;
+    padding: 2rem;
+    padding-bottom: 0;
+
+}
+@media (min-width: 1350px){
+    .about__content{
+        margin-bottom: 0;
+    }
+    .about__text{
+        margin-right: -35em;
+        z-index: 1;
+    }
+    .aboutImage{
+        display: flex;
+    }
+    .aboutName{
+        font-size: 90px;
+    }
+}
+@media (max-width: 1350px){
+    .about__content{
+        margin-bottom: 0;
+    }
+    .aboutName{
+        font-size: 50px;
+    }
+}
+@media (max-width: 300px){
+    .about__content{
+        margin-bottom: 0;
+    }
+    .aboutName{
+        font-size: 20px;
+    }
+}
