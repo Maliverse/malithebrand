@@ -1,5 +1,5 @@
 .swipe-container{
-    background: #1e241c url(../../assets/images/botanical.jpg);
+    background: #1e241c url(../../assets/images/wave2@3x-8.png);
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 100px;
@@ -7,7 +7,8 @@
     padding-bottom: 100px;
     border-top: 20px solid #1e241c;
     border-bottom: 20px solid #1e241c;
-    
+   
+ 
 }
 
 .swiper {
@@ -27,11 +28,13 @@
     font-weight: bold;
     color: #fff;
   }
-.swiper-text{
+.swiper-text {
  font-size: 20px;
   text-align: left;
   padding: 2rem;
+  font-family: FoundersGrotesk-light;
 }
+
   .swiper-img, .a{
     height: 5rem;
     width: 5rem;
@@ -39,6 +42,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 100%;
+  
   }
   .b{
     height: 5rem;

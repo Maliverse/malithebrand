@@ -26,6 +26,7 @@ export default function Swipe() {
          <h1 className="swiper-text">
          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorum beatae.
           </h1> 
+    
           <div className="swiper-img a"></div>
           <h2>Dr. Karis E. Ameh-Wealth</h2>
           </SwiperSlide>
