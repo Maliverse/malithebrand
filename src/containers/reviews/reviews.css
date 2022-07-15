@@ -1,14 +1,19 @@
 .reviews-container{
-
+    border-top: 20px solid #2D322B;
     display: flex;
     justify-content: center;
     flex-direction: column;
-  
+    background: #f5f1f0 ;
+    background-repeat: repeat;
+    background-size: cover;
+ 
     
+   
 }
 .review-title{
     text-align: center;
     font-family: canela;
     align-self: center;
-    margin-top: 4rem;
+    margin-top: 6rem;
+    color: #2D322B;
 }

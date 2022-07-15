@@ -1,17 +1,19 @@
 .project__container{
     display: flex;
-    margin: 5em ;
-  
+    margin: 0 ;
+  background: #1e241c;
     margin-bottom: 0;
     justify-content: center;
     flex-direction: column;
+    
 }
 .project__title{
     text-align: center;
     font-family: canela;
     align-self: center;
     margin: 4rem;
-    margin-top: 0;
+    margin-top: 5em;
+ 
    
     
 }
@@ -21,7 +23,7 @@
     flex-direction: row;
     justify-content: center;
   
-    
+    margin-bottom: 5em;
 }
 .card {
     height: 350px;
@@ -173,7 +175,7 @@
 
     .project__title{
     
-        margin: 0;
+        margin-top: 5rem;
       
      
     }
@@ -191,8 +193,8 @@
     }
     .project__title{
     
-        margin: 5rem;
-        margin-top: 0;
+   
+        margin-top: 5rem;
      
     }
 
