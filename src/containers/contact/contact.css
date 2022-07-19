@@ -1,0 +1,50 @@
+.contact-container{
+    border-top: 0.5px solid white ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem;
+
+    align-items: center;
+   
+}
+
+.form-container{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 3rem;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 250px;
+    max-width: 450px;
+ 
+
+   
+}
+input[type=text], [type=email], textarea{
+    height: 40px;
+    margin-bottom: 4rem;
+    border-radius: 5px;
+    border: none;
+    background:  #1e241c;
+    overflow: hidden;
+    color: white;
+
+}
+input:focus{
+    outline: 1px solid orange;
+
+}
+textarea:focus{
+    outline: 1px solid orange;
+
+}
+.message-field{
+    height: 6rem;
+    padding-bottom: 5rem;
+    padding-top: 2px;
+}

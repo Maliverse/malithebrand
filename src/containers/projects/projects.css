@@ -7,9 +7,44 @@
     flex-direction: column;
     
 }
+.menu-div{
+
+    border-top: 3px solid #2D322B;
+    width: 100vw;
+    display: flex;
+    justify-content:left;
+    margin-top: 1rem;
+    border-radius: 4px;
+  
+
+}
+.project__container ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+    font-family: FoundersGrotesk-light;
+    font-size: 24px;
+   
+}
+.project__container a:hover{
+ 
+    color: white;
+}
+.project__container a:focus{
+    border-bottom: 4px solid orange;
+    color: white;
+}
+
+.project__container a:active{
+    border-bottom: 4px solid orange;
+    color: white;
+}
+
 .project__title{
     text-align: center;
-    font-family: canela;
+    font-family: Canela;
     align-self: center;
     margin: 4rem;
     margin-top: 5em;
@@ -159,8 +194,13 @@
   
 }
     @media screen and (max-width: 912px){
- 
-
+    .menu-div{
+        justify-content: center;
+    }
+        .project__container ul{
+            flex-direction: column;
+           
+        }
     .project__title{
     
         

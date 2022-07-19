@@ -1,13 +1,36 @@
 import React from "react";
 import './projects.css';
 import { FiFigma, FiLink } from 'react-icons/fi';
+import { useState } from "react";
+import { Link } from 'react-router-dom'
 
+
+const MenuToo = () => (
+    <>
+          <ul >
+          <li> <Link to='/branding'>Branding</Link></li>
+          <li> <a href="#UI/UX">UI/UX</a></li>
+            <li> <a href="#Websites">Live-Sites</a></li>
+        </ul>
+    </>
+)
 
 const Projects = () => {
+
+    
+
     return(
+
         <div className="project__container" id="Projects">
 <div className="project__title">
         <h1>Some <br /> interesting projects</h1>
+      
+        <div  
+        className="menu-div"
+        >
+        {/* <MenuToo /> */}
+        </div>
+      
  </div>
 
         <div className="project__cards ">
