@@ -29,13 +29,13 @@ export default function Contact() {
         
         <form ref={form} onSubmit={sendEmail}>
         <label for="name">Name</label>
-        <input type="text" placeholder='Name' name="name" />
+        <input type="text" placeholder='Name' name="name" required/>
         <label for="email">Email</label>
         <input type="email" id="email" placeholder='Email'  required="" 
         title="Not Valid" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" name="email" />
         
         <label for="message">Message</label>
-        <textarea className='message-field' type="text" placeholder='Your Message Here' name="message" />
+        <textarea className='message-field' type="text" placeholder='Your Message Here' name="message" required/>
          <button className='jello-horizontal' >Send message</button>
         </form>
 
