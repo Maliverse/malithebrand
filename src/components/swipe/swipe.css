@@ -63,7 +63,15 @@
   .d{
     height: 5rem;
     width: 5rem;
-    background: url(../../assets/images/drakare.jpg);
+    background: url(../../assets/images/kulpam.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+  }
+  .e{
+    height: 5rem;
+    width: 5rem;
+    background: url(../../assets/images/ebe.jpg);
      background-repeat: no-repeat;
     background-size: cover;
     border-radius: 100%;
