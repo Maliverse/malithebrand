@@ -1,7 +1,9 @@
 import './about.css'
 import aboutImage from '../../assets/images/maliweb.jpg';
 import Marquee from "react-fast-marquee";
-
+import { Link } from 'react-router-dom';
+import Me from '../../pages/Me';
+import { Route, Routes } from 'react-router-dom';
 
 const About = () => {
     return(
@@ -22,7 +24,13 @@ const About = () => {
                 <p>DESIGNER & DEVELOPER </p>
               <p className='about-intro'>Akwunté “Maliverse” Amali is a developer and designer hybrid who is highly intrigued by technology, branding and innovation.
 With a strong background in design and with his skills in advanced development tools, <br /> he is dedicated to building visually stunning user-centered products, relevant for the modern age.</p>
+      
+     
+    {/* <Link to='/me'> <button>See more</button></Link> */}
+
+
                 </div>
+                
                 <img className='aboutImage' src={aboutImage} alt="Akwunte" />
            
             </div>
@@ -32,6 +40,10 @@ With a strong background in design and with his skills in advanced development t
                 <p> BUILDING <strong> BRANDS THAT WIN </strong> CONSISTENTLY. </p>
                 </Marquee>
              </div>
+
+             <Routes>
+             <Route path='me' element={<Me />}> </Route>
+             </Routes>
 
         </div>
       

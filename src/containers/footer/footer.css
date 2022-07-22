@@ -1,11 +1,16 @@
 .footer-container{
     border-top: 0.5px solid white;
+    
 }
 
-.footerText{
+.footer-content{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+   
+   
+}
+.footerText{
     margin-bottom: 5rem;
     margin-top: 5rem;
-   
 }

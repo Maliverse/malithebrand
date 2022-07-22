@@ -5,6 +5,8 @@ import Footer from '../containers/footer/Footer';
 
 function Home() {
     return(
+
+
       <div>
          <Navbar />
         <Header />

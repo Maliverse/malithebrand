@@ -3,6 +3,7 @@ import './App.css';
 import Home from './pages/Home';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Branding from './pages/Branding';
+import Me from './pages/Me';
 
  
   const App = () => {
@@ -18,6 +19,8 @@ import Branding from './pages/Branding';
           
         <Route path='/' element= {<Home />}></Route>
         <Route path='/branding' element= {<Branding />}></Route>
+        <Route path='/me' element= {<Me />}></Route>
+
       </Routes>
 
         </BrowserRouter>

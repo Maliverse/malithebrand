@@ -4,11 +4,14 @@
     justify-content: center;
     flex-direction: column;
     padding: 3rem;
-
+    background: rgb(75, 0, 0);
     align-items: center;
    
 }
-
+.send, .jello-horizontal:hover{
+    background: white;
+    color: #1e241c;
+}
 .form-container{
     margin-left: 100px;
     margin-right: 100px;

@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import './header.css';
 import { motion } from "framer-motion";
 import { RiGithubFill, RiBehanceFill, RiLinkedinBoxFill, RiTwitterFill } from 'react-icons/ri';
+import { SiPolywork } from 'react-icons/si';
 
 const Header = () => {
 
@@ -73,7 +74,7 @@ const Header = () => {
                   <a href="https://www.behance.net/akwunte"><RiBehanceFill className='social_icon' color="#E3DFD6" size={30} /></a>
                   <a href="https://www.linkedin.com/in/akwunteamali/"><RiLinkedinBoxFill  className='social_icon' color="#E3DFD6" size={30} /></a>
                   <a href="https://twitter.com/Whatismalidoing"><RiTwitterFill className='social_icon' color="#E3DFD6" size={30} /></a>
-         
+                  <a href="https://www.polywork.com/maliverse"><SiPolywork className='social_icon' color="#E3DFD6" size={25} /></a>
                 
                 
                 </div>

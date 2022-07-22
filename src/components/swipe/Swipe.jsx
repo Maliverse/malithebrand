@@ -33,7 +33,7 @@ export default function Swipe() {
 
         <SwiperSlide>
         <h1 className="swiper-text">
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorum beatae.
+        Working with Mali is amazing!  he executes every idea to perfection. He takes his time and he knows when something can be better. A great mind.
           </h1> 
           <div className="swiper-img b"></div>
           <h2>Sesmo</h2>
