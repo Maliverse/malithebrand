@@ -1,17 +1,15 @@
 
-
 .about__content{
     background:  url(../../assets/images/maliweb@0.33x.jpg);
     height: 500px;
-    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    justify-content: center;
-    align-items: center;
-  margin-bottom: 0;
+    flex-direction: column-reverse;
  
-    
+    justify-content: center;
+  padding: 2rem;
+ 
 }
 
 
@@ -19,56 +17,55 @@
 
     
 
-    text-align: center;
+    text-align: left;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: left;
     flex-direction: column;
-    width: 50vw;
+  
+  
     
     
 }
 .aboutName{
     font-family: canela;
-    font-size: 60px;
+    font-size: 30px;
+   
+
 }
 
-.about__text p{
+.about-title{
     font-family: FoundersGrotesk-light;
-    margin: 1rem;
+    padding: 0;
+    text-align: left;
     
 }
 .aboutImage{
-    width: 1050px;
-    display: none;
+    display: flex;
+   transform: scale(0.8);
+   justify-self: flex-start;
    
 }
 .about-intro{
     letter-spacing: 0;
     text-align: left;
     border-top: 1px solid white;
-    padding: 2rem;
+    padding: 1rem;
+    padding-left: 0;
     padding-bottom: 0;
-
+ 
 }
+
 @media (min-width: 1350px){
     .about__content{
         margin-bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+       padding: 15rem;
     }
     .about__text{
-        margin-right: -35em;
-        z-index: 1;
-    }
-    .aboutImage{
-        display: flex;
-    }
-    .aboutName{
-        font-size: 90px;
-    }
-}
-@media (max-width: 1350px){
-    .about__content{
-        margin-bottom: 0;
+        width: 80%;
     }
     .aboutName{
         font-size: 50px;

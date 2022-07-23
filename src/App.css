@@ -26,6 +26,8 @@ body{
 
 h1{
   font-family: Canela;
+  z-index: 100;
+  position: relative;
 }
 
 h2{

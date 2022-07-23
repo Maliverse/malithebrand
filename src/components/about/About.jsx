@@ -1,7 +1,7 @@
 import './about.css'
-import aboutImage from '../../assets/images/maliweb.jpg';
+import aboutImage from '../../assets/images/maliwebcolor.png';
 import Marquee from "react-fast-marquee";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Me from '../../pages/Me';
 import { Route, Routes } from 'react-router-dom';
 
@@ -18,22 +18,25 @@ const About = () => {
              </div>
 
             <div className='about__content '>
+                
+
+
 
             <div className='about__text'>
                 <h1 className='aboutName'>Akwunté Amali</h1>
-                <p>DESIGNER & DEVELOPER </p>
+                <p className='about-title'>DESIGNER & DEVELOPER </p>
               <p className='about-intro'>Akwunté “Maliverse” Amali is a developer and designer hybrid who is highly intrigued by technology, branding and innovation.
-With a strong background in design and with his skills in advanced development tools, <br /> he is dedicated to building visually stunning user-centered products, relevant for the modern age.</p>
-      
-     
+                With a strong background in design and with his skills in advanced development tools, <br /> he is dedicated to building visually stunning user-centered products, relevant for the modern age.</p>
     {/* <Link to='/me'> <button>See more</button></Link> */}
-
-
                 </div>
-                
+                <div className='about__image-container'>
                 <img className='aboutImage' src={aboutImage} alt="Akwunte" />
+                </div>
+              
            
             </div>
+
+
 
             <div className='animationText'>
                <Marquee className='marquee' behavior="scroll" direction="right" speed={100} gradientColor="black">
