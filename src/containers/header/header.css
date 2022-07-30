@@ -62,7 +62,17 @@ p{
     margin-top: 3rem;
     
 }
- 
+.email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 0;
+   
+}
+.email:hover{
+    filter: invert(16%) sepia(94%) saturate(5500%) hue-rotate(357deg) brightness(106%) contrast(117%);
+    border: none;
+}
 .divider{
     display: flex;
     flex-direction: row;

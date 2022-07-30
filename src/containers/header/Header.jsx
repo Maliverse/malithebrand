@@ -3,7 +3,9 @@ import React, { useEffect, useState } from 'react';
 import './header.css';
 import { motion } from "framer-motion";
 import { RiGithubFill, RiBehanceFill, RiLinkedinBoxFill, RiTwitterFill } from 'react-icons/ri';
-import { SiPolywork } from 'react-icons/si';
+import { SiPolywork, SiMinutemailer } from 'react-icons/si';
+import { AiOutlineMail } from 'react-icons/ai';
+
 
 const Header = () => {
 
@@ -81,7 +83,8 @@ const Header = () => {
                 
             </div>
             <div className='malithebrand__button'>
-              <a href="mailto: amaliakwunte@gmail.com"><button onMouseEnter={textEnter} onMouseLeave={textLeave} className='jello-horizontal'>Contact</button> </a>
+              <a href="mailto: amaliakwunte@gmail.com"><button onMouseEnter={textEnter} onMouseLeave={textLeave} className='jello-horizontal email'>
+                <SiMinutemailer className='social_icon email ' color="#E3DFD6" size={25}  /><div>Email</div></button> </a>
             </div>
 
             <motion.div
