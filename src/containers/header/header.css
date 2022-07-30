@@ -70,8 +70,8 @@ p{
    
 }
 .email:hover{
-    filter: invert(16%) sepia(94%) saturate(5500%) hue-rotate(357deg) brightness(106%) contrast(117%);
-    border: none;
+    background: none;
+
 }
 .divider{
     display: flex;

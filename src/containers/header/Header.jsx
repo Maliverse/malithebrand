@@ -84,7 +84,7 @@ const Header = () => {
             </div>
             <div className='malithebrand__button'>
               <a href="mailto: amaliakwunte@gmail.com"><button onMouseEnter={textEnter} onMouseLeave={textLeave} className='jello-horizontal email'>
-                <SiMinutemailer className='social_icon email ' color="#E3DFD6" size={25}  /><div>Email</div></button> </a>
+                <SiMinutemailer className='social_icon email ' color="red" size={25}  /><div>Email</div></button> </a>
             </div>
 
             <motion.div
